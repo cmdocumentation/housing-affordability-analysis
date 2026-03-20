@@ -4,7 +4,7 @@
 - **Table**: 98-10-00245-01 (Shelter-cost-to-income ratio by visible minority and immigrant status)
 - **Source**: Statistics Canada, 2021 Census
 - **Coverage**: Canada, provinces, territories, CMAs
-- **Records**: 64,592 records across 173 geographic regions
+- **Records**: 56,803 records across 173 geographic regions
 
 ### Data Cleaning and Filtering
 StatsCan organizes data hierarchically. Parent categories aggregate child categories. I retained only leaf-level categories to avoid double-counting.
