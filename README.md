@@ -25,7 +25,7 @@ Immigrants in Canada face significantly elevated housing affordability burdens i
 
 **StatsCan Table:** [98-10-00245-01](https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=9810032801&selectedNodeIds=3D2,3D4,3D5,3D6,3D7,4D6,4D12,4D13&checkedLevels=0D1,1D1,2D4,3D5,4D1,5D1,6D3,7D1&refPeriods=20210101,20210101&dimensionLayouts=layout2,layout2,layout3,layout3,layout2,layout2,layout3,layout2,layout2&vectorDisplay=false). Shelter-cost-to-income ratio by visible minority and immigrant status and period of immigration (2021 Census).
 
-*Note: 2021 Census represents the most recent comprehensive data available for this analysis. The next Census will occur in 2031.*
+*Note: 2021 Census represents the most recent comprehensive data available for this analysis. The next Census will be released in 2027 and 2028.*
 
 **Universe:** Canadian population in owner and tenant households with:
 - Household total income > $0
