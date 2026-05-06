@@ -14,6 +14,10 @@ Immigrants in Canada face significantly elevated housing affordability burdens i
   - [Finding 2: Low-Burden Housing Recovery](#finding-2-low-burden-housing-less-than-15-reveals-the-inverse-pattern)
   - [Finding 3: Mid-Career Inflection Point](#finding-3-the-middle-years-4554-show-unexpected-improvement-for-immigrants)
   - [Finding 4: Extreme-Burden Stability](#finding-4-the-extreme-burden-category-50-tells-a-story-of-growing-stability)
+- [Interpretation](#interpretation)
+  - [What the Data Actually Shows](#what-the-data-actually-shows)
+  - [Questions Requiring Further Investigation](#questions-requiring-further-investigation)
+- [Critical Data Limitations](#critical-data-limitations)
 - [Recommended Next Steps](#recommended-next-steps)
 ---
 
@@ -116,10 +120,128 @@ Across all age groups, the proportion of immigrants spending 50% or more of inco
 
 **Why this matters:** While immigrants are more likely than non-immigrants to face extreme burden, the rate does **not increase with career progression**—it actually **decreases slightly** from 6.60% (age 25–34) to 5.72% (age 45–54).
 
-## Recommended Next Steps:
+---
+
+## Interpretation
+
+### What the Data Actually Shows
+
+**1. Immigrants face a real but time-limited affordability gap.** The burden is most acute in the 25–44 age range (early and mid-career), where immigrants are 1.7–2.0x more likely to spend 30%+ on housing. This reflects barriers to initial credential recognition, lower early-career wages, or concentrated settlement in high-cost areas.
+
+**2. The gap narrows significantly with age.** By age 55–64 and beyond, immigrants and non-immigrants show converging patterns of housing affordability. This indicates that immigrants do achieve financial stability—they are not permanently disadvantaged, but rather face a delayed trajectory.
+
+**3. Low-burden housing improves steadily for immigrants.** Nearly half of immigrants aged 55+ achieve low-burden housing (<15%), suggesting successful long-term wealth accumulation and housing security despite early-career challenges.
+
+**4. Extreme burden (50%+) is neither widespread nor worsening.** Only 5–6% of working-age immigrants spend half or more of income on shelter, and this rate improves with age rather than worsening.
+
+**5. Convergence extends into retirement (65+).** By age 65+, immigrant and non-immigrant high-burden rates are nearly equal (19.65% vs. 14.58%, a 1.3x ratio—down from 2.0x at ages 35–44). This suggests affordability recovery persists even when income sources shift to retirement benefits, though survivor bias and income-support programs specific to seniors may partially explain this pattern.
+
+---
+
+### Questions Requiring Further Investigation
+
+**Note:** The 65+ findings on convergence are suggestive but require careful interpretation, as retirement income dynamics (CPP, OAS, pensions) differ substantively from employment-based income. The mechanisms driving 65+ convergence may differ from those operating in ages 20–64.
+
+The data demonstrates correlation, not causation. The most likely mechanisms driving the observed burden trajectory are:
+
+#### Income Recognition Effect (High Confidence)
+- **Prediction:** Immigrant wage growth should exceed non-immigrant growth in years 5–10
+- **Evidence needed:** Longitudinal wage data by arrival cohort
+
+#### Housing Transition Effect (Medium Confidence)
+- **Prediction:** Immigrants should show higher rental-to-ownership transitions at ages 45–54
+- **Evidence needed:** Housing tenure data by age and immigrant status
+
+#### Survivor Bias (Medium Confidence)
+- **Prediction:** Return migration rates should be highest at ages 25–34
+- **Evidence needed:** Linked Census-immigration administrative data
+
+#### Household Composition Effect (Lower Confidence)
+- **Prediction:** Immigrant household size should decline faster with age
+- **Evidence needed:** Household structure data by age and arrival cohort
+
+---
+
+#### Why do immigrants face higher early-career burden?
+
+The data shows that they do, but not why. Possible explanations:
+
+- **Credential barriers:** Foreign qualifications may not be immediately recognized, forcing initial underemployment
+- **Wage penalties:** Immigrants may earn less in their first years despite equivalent qualifications
+- **Family composition:** Immigrants may support larger households or send remittances, affecting shelter-cost ratios
+- **Settlement concentration:** Immigrants may concentrate in high-cost metropolitan areas
+- **Selection effects:** Immigration policy may select for specific demographics or occupational categories
+
+To determine causation, we would need:
+
+- Longitudinal wage and income data by arrival year and education level
+- Occupational distribution by immigrant status and age
+- Geographic settlement data and housing-market-adjusted analysis
+- Household composition and family support patterns
+
+---
+
+## Critical Data Limitations
+
+### 1. The Most Housing-Insecure Are Invisible
+
+This dataset excludes households spending >100% of income on shelter—a critical gap that likely understates early-career immigrant burden:
+
+- Households drawing down savings, relying on informal income, or in severe housing insecurity are not counted
+- Immigrants who left Canada are not in the 2021 Census
+- **Consequence:** The true affordability challenge for early-career immigrants (25–44) is likely more acute than these numbers show. Immigrants who experienced severe housing insecurity or departed Canada are not counted in the Census. The recovery observed at ages 45–54 may partially reflect survivor bias—if unsuccessful immigrants emigrated, the remaining sample is systematically skewed toward those who achieved stability.
+
+### 2. Statistical Precision Varies by Group
+
+Data from the 2021 Census 25% sample. Non-immigrant cohorts are substantially larger than immigrant cohorts:
+
+- **Non-immigrants aged 25–34:** 3,355,560 respondents
+- **Immigrants aged 25–34:** 1,067,415 respondents
+
+**Consequence:** Immigrant estimates have wider confidence intervals and greater sampling variability. For example, immigrants aged 25–34 spending 30%+ on shelter are estimated at **23.19% (95% CI: 22.87–23.51%)**, while non-immigrants in the same age group are at **13.30% (95% CI: 13.15–13.44%)**. The non-immigrant estimate has narrower confidence bounds (±0.15 pp) due to a larger sample size (3,355,560 vs. 1,067,415), reflecting greater statistical precision. This wider uncertainty band applies to all immigrant subgroups and should be considered when interpreting percentage-point differences, particularly for smaller arrival cohorts (e.g., 1980–1990 immigrants) where sampling variability is greater.
+
+### 3. Geographic Hotspots Are Masked
+
+This analysis pools all of Canada, obscuring significant regional variation:
+
+- Toronto and Vancouver likely face more severe affordability crises, but regional data is required to quantify the difference
+- Early-career immigrants concentrated in expensive CMAs likely face much higher burden than shown here
+- Regional patterns of recovery (or lack thereof) are hidden
+
+**Consequence:** The finding that immigrants recover by mid-career is demonstrated at the national level, but recovery patterns may be attenuated, delayed, or absent in high-cost metropolitan areas (Toronto, Vancouver). This analysis cannot determine whether the 45–54 improvement holds uniformly across CMAs or is driven by immigrants in lower-cost regions. A geographic breakdown by CMA is necessary to identify regional hotspots and test whether recovery patterns are universal.
+
+### 4. Causation Is Unknown
+
+The data shows immigrants face higher early-career burden that decreases by mid-career, but does not explain why. Possible mechanisms include:
+
+- **Income growth:** Immigrants' wages increase as Canadian credentials are recognized and work experience accumulates
+- **Housing transitions:** Immigrants move from expensive rentals to purchased homes or cheaper suburbs
+- **Household composition changes:** Early household size shrinks as dependents become independent
+- **Credential recognition:** Initial underemployment resolves after 5–10 years
+
+**Consequence:** Policy implications depend on which mechanism is true. Income-focused policies address wage penalties; housing-focused policies address affordability; retention-focused policies address emigration. Without wage data, housing transition data, or longitudinal tracking, the true driver cannot be determined.
+
+### 5. Retirement Income Complicates 65+ Interpretation
+
+The 65+ age group experiences convergence in affordability burdens, but the mechanisms driving this convergence differ from working-age patterns:
+
+- Income sources shift from employment to CPP, OAS, and pensions—all income-tested or fixed programs that affect housing affordability differently
+- Survivor bias is likely stronger at 65+ (only the most financially stable immigrants remain in Canada)
+- Home equity and housing ownership rates (which determine shelter costs) may differ systematically between immigrants and non-immigrants at this age
+
+**Consequence:** The convergence at 65+ is real and noteworthy, but cannot be directly compared to working-age patterns. It suggests long-term housing stability but does not explain the mechanisms driving the 25–44 burden gap.
+
+---
+
+## Recommended Next Steps
+
 The current analysis demonstrates correlation but not causation. The following datasets would test the proposed mechanisms:
 
-* **Income Recognition Hypothesis** — Acquire T1 General/T4 wage data stratified by arrival cohort and age. Prediction: Immigrants' wage growth (years 5–10) should exceed non-immigrants' baseline.
-* **Geographic Variation** — Stratify by Census Metropolitan Area (Toronto, Vancouver, Calgary, Montreal). Prediction: Mid-career recovery (45–54 improvement) should hold across high-cost regions.
-* **Survivor Bias** — Cross-reference 2021 Census with immigration administrative records to quantify return migration rates at ages 25–34. Prediction: Return rates should be elevated for high-burden immigrants.
-* **Housing Tenure Transitions** — Analyze rental → owner transitions by age and immigrant status. Prediction: Immigrants should show accelerated ownership transitions at ages 45–54, explaining burden decline.
+1. **Income Recognition Hypothesis** — Acquire T1 General/T4 wage data stratified by arrival cohort and age. Prediction: Immigrants' wage growth (years 5–10) should exceed non-immigrants' baseline.
+
+2. **Geographic Variation** — Stratify by Census Metropolitan Area (Toronto, Vancouver, Calgary, Montreal). Prediction: Mid-career recovery (45–54 improvement) should hold across high-cost regions.
+
+3. **Survivor Bias** — Cross-reference 2021 Census with immigration administrative records to quantify return migration rates at ages 25–34. Prediction: Return rates should be elevated for high-burden immigrants.
+
+4. **Housing Tenure Transitions** — Analyze rental → owner transitions by age and immigrant status. Prediction: Immigrants should show accelerated ownership transitions at ages 45–54, explaining burden decline.
+
