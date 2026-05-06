@@ -1,5 +1,17 @@
--- QUERY 2: Calculate shelter-cost ratio distribution by age group and immigrant status
+-- ============================================================
+-- Query 2: Calculate shelter-cost ratio distribution by age group and immigrant status
 -- Purpose: Show percentage breakdown of housing affordability burden for comparative analysis
+-- Author: Christina
+-- Date: April 2026
+-- ============================================================
+
+-- DATA SOURCE
+-- Table: 98-10-00245-01 (Shelter-cost-to-income ratio by visible minority 
+--        and immigrant status)
+-- Source: Statistics Canada, 2021 Census (25% sample)
+-- Universe: Owner and tenant households with income > $0 and 
+--           shelter-cost-to-income ratio < 100%, in non-reserve 
+--           non-farm private dwellings
 
 SELECT 
   age_group,
