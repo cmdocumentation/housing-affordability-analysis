@@ -87,7 +87,7 @@ While high-burden rates are elevated for immigrants in early career, so too is t
 
 **Why this matters:** By age 55–64, nearly half of all immigrants (46.44%) achieve low-burden housing (<15%), compared to 59.69% of non-immigrants. By 65+, the gap shrinks further (46.56% vs. 56.13%).
 
-This pattern suggests immigrants DO recover financially over their career span. They are not permanently trapped in high-burden situations. The early-career gap reflects different starting conditions (lower initial wages, credential recognition barriers, or family circumstances), not permanent disadvantage.
+This pattern suggests immigrants do recover financially over their career span. They are not permanently trapped in high-burden situations. The early-career gap reflects different starting conditions (lower initial wages, credential recognition barriers, or family circumstances), not permanent disadvantage.
 
 ---
 
@@ -101,7 +101,7 @@ A notable inflection point emerges at ages 45–54: immigrant high-burden rates 
 | 35–44     | 23.24%                   | 11.79%                       | +0.05 pp (immigrant), −1.51 pp (non-immigrant) |
 | 45–54     | **19.51%**               | 10.48%                       | **−3.73 pp (immigrant)** ✓, −1.31 pp (non-immigrant) |
 
-**What this reveals:** Rather than burden persisting or worsening, immigrants show marked improvement at mid-career (45–54). This contradicts the narrative of permanent affordability crisis. Instead, it aligns with life-cycle patterns of income growth, home equity accumulation, and financial stabilization—the same pattern seen in non-immigrants, just delayed by 10–15 years.
+**What this reveals:** Rather than burden persisting or worsening, immigrants show marked improvement at mid-career (45–54). This contradicts the narrative of a permanent affordability crisis. Instead, it aligns with life-cycle patterns of income growth, home equity accumulation, and financial stabilization—the same pattern seen in non-immigrants, just delayed by 10–15 years.
 
 ---
 
