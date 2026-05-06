@@ -242,9 +242,9 @@ The current analysis demonstrates correlation but not causation. The following d
 
 1. **Income Recognition Hypothesis**: Acquire T1 General/T4 wage data stratified by arrival cohort and age. **Prediction**: Immigrants' wage growth (years 5–10) should exceed non-immigrants' baseline.
 
-2. **Geographic Variation**: Stratify by Census Metropolitan Area (Toronto, Vancouver, Calgary, Montreal). **Prediction**: Mid-career recovery (45–54 improvement) should hold across high-cost regions.
+3. **Geographic Variation**: Stratify by Census Metropolitan Area (Toronto, Vancouver, Calgary, Montreal). **Prediction**: Mid-career recovery (45–54 improvement) should hold across high-cost regions.
 
-3. **Survivor Bias**: Cross-reference 2021 Census with immigration administrative records to quantify return migration rates at ages 25–34. **Prediction**: Return rates should be elevated for high-burden immigrants.
+4. **Survivor Bias**: Cross-reference 2021 Census with immigration administrative records to quantify return migration rates at ages 25–34. **Prediction**: Return rates should be elevated for high-burden immigrants.
 
-4. **Housing Tenure Transitions**: Analyze rental → owner transitions by age and immigrant status. **Prediction**: Immigrants should show accelerated ownership transitions at ages 45–54, explaining burden decline.
+5. **Housing Tenure Transitions**: Analyze rental → owner transitions by age and immigrant status. **Prediction**: Immigrants should show accelerated ownership transitions at ages 45–54, explaining burden decline.
 
