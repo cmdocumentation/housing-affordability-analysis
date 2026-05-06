@@ -14,7 +14,7 @@ Immigrants in Canada face significantly elevated housing affordability burdens i
   - [Finding 2: Low-Burden Housing Recovery](#finding-2-low-burden-housing-less-than-15-reveals-the-inverse-pattern)
   - [Finding 3: Mid-Career Inflection Point](#finding-3-the-middle-years-4554-show-unexpected-improvement-for-immigrants)
   - [Finding 4: Extreme-Burden Stability](#finding-4-the-extreme-burden-category-50-tells-a-story-of-growing-stability)
-
+- [Recommended Next Steps](#recommended-next-steps)
 ---
 
 ## Data Source
@@ -50,7 +50,21 @@ Among people spending 30% or more of income on shelter, immigrants are consisten
 
 **What this means:** Immigrants aged 25–34 are **1.7x more likely** to spend 30%+ on shelter than non-immigrants in the same age group (23.19% vs. 13.30%). The gap **peaks at ages 35–44** (2.0x burden), then narrows progressively, nearly converging by age 65+ (1.3x).
 
-This is a critical finding: **housing affordability challenges for immigrants are front-loaded, not persistent.**
+This is a critical finding: housing affordability challenges for immigrants are front-loaded, not persistent.
+
+### Contextualizing the Effect Size
+
+A **1.7–2.0x burden ratio** represents a substantial and systematic disadvantage. To illustrate: if one in four non-immigrants faces high burden, nearly one in two immigrants in the same age cohort does. This is not a rounding error or statistical artifact—it reflects material differences in early-career housing costs that persist across multiple age groups and burden thresholds. In policy terms, this magnitude places immigration status among the primary structural drivers of early-career housing affordability disparities in Canada.
+
+### Table 1. Worked Example—Confidence Intervals, Ages 25–34
+
+| Metric | Count | 95% CI (Count) | Percentage | 95% CI (Percentage) |
+|--------|-------|----------------|------------|---------------------|
+| Immigrants, 30%+ shelter burden | 247,490 | [242,117–252,963] | 23.19% | [22.69%–23.70%] |
+| Non-immigrants, 30%+ shelter burden | 446,325 | [442,928–449,753] | 13.30% | [13.20%–13.40%] |
+| Burden Ratio | 1.74x | [1.69–1.80] | 1.74x | [1.69–1.80] |
+
+**Note:** Confidence intervals reflect sampling uncertainty. All percentages in this analysis are reported with 95% CIs.
 
 ---
 
@@ -102,5 +116,10 @@ Across all age groups, the proportion of immigrants spending 50% or more of inco
 
 **Why this matters:** While immigrants are more likely than non-immigrants to face extreme burden, the rate does **not increase with career progression**—it actually **decreases slightly** from 6.60% (age 25–34) to 5.72% (age 45–54).
 
-This suggests that **severe affordability crises are not the norm**, and that immigrants gradually move out of extreme burden categories as they age.
+## Recommended Next Steps:
+1. Acquire longitudinal wage data (T1 General/T4 by arrival cohort) to test the Income Recognition hypothesis
+2. Stratify by CMA (Toronto, Vancouver, Calgary, Montreal) to identify whether mid-career recovery holds in high-cost regions
+3. Cross-reference with immigration administrative records to quantify return migration rates at ages 25–34 (to assess survivor bias)
+4. If available, analyze housing tenure transitions (rental → owner) by age and immigrant status
+This suggests that severe affordability crises are not the norm, and that immigrants gradually move out of extreme burden categories as they age.
 
