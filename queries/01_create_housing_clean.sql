@@ -1,5 +1,5 @@
 -- ============================================================
--- Query: Create housing affordability table
+-- Query 1: Create housing affordability table
 -- Purpose: Import StatsCan census data and standardize column naming
 -- Author: Christina
 -- Date: April 2026
