@@ -1,4 +1,4 @@
-# Housing Affordability Gap: Recent Immigrants vs. Canadian-Born Residents
+# Housing Affordability Gap: Immigrants vs. Canadian-Born Residents
 
 Immigrants in Canada face significantly elevated housing affordability burdens in early career (ages 25–44), where they are 1.7–2.0x more likely to spend 30%+ of income on shelter than Canadian-born peers. However, this burden is not permanent: by mid-career (45–54), immigrants show marked improvement, and by age 65+, housing affordability patterns largely converge with non-immigrants. This analysis reveals a delayed but recoverable trajectory rather than persistent disadvantage.
 
