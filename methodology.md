@@ -24,7 +24,6 @@ Canadian population in owner and tenant households meeting all of the following 
 - Immigration status
 - Age group
 - Shelter-cost-to-income ratio
-- Core housing need designation
 
 ---
 
