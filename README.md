@@ -41,7 +41,7 @@ Immigrants in Canada face significantly elevated housing affordability burdens i
 
 ### Finding 1: Immigrants Face Elevated High-Burden Housing Costs Across All Age Groups
 
-Among people spending 30% or more of income on shelter, immigrants are consistently overrepresented compared to non-immigrants in the same age group—but the gap narrows significantly with age.
+Among people spending 30% or more of income on shelter, immigrants are consistently overrepresented compared to non-immigrants in the same age group, but the gap narrows significantly with age.
 
 | Age Group | Immigrants (30%+ burden) | Non-Immigrants (30%+ burden) | Burden Ratio |
 |-----------|--------------------------|------------------------------|--------------|
@@ -58,7 +58,7 @@ This is a critical finding: housing affordability challenges for immigrants are 
 
 ### Contextualizing the Effect Size
 
-A 1.7–2.0x burden ratio represents a substantial and systematic disadvantage. To illustrate: if one in four non-immigrants faces high burden, nearly one in two immigrants in the same age cohort does. This is not a rounding error or statistical artifact—it reflects material differences in early-career housing costs that persist across multiple age groups and burden thresholds. In policy terms, this magnitude places immigration status among the primary structural drivers of early-career housing affordability disparities in Canada.
+A 1.7–2.0x burden ratio represents a substantial and systematic disadvantage. To illustrate: if one in four non-immigrants faces high burden, nearly one in two immigrants in the same age cohort does. This is not a rounding error or statistical artifact. It reflects material differences in early-career housing costs that persist across multiple age groups and burden thresholds. In policy terms, this magnitude places immigration status among the primary structural drivers of early-career housing affordability disparities in Canada.
 
 ### Table 1. Worked Example: Confidence Intervals, Ages 25–34
 
@@ -85,7 +85,7 @@ While high-burden rates are elevated for immigrants in early career, so too is t
 | 55–64     | 46.44%                   | 59.69%                       |
 | 65+       | 46.56%                   | 56.13%                       |
 
-**Why this matters:** By age 55–64, nearly half of all immigrants (**46.44%**) achieve low-burden housing (<15%), compared to 59.69% of non-immigrants. By 65+, the gap shrinks further (46.56% vs. 56.13%).
+**Why this matters:** By age 55–64, nearly half of all immigrants (46.44%) achieve low-burden housing (<15%), compared to 59.69% of non-immigrants. By 65+, the gap shrinks further (46.56% vs. 56.13%).
 
 This pattern suggests immigrants DO recover financially over their career span. They are not permanently trapped in high-burden situations. The early-career gap reflects different starting conditions (lower initial wages, credential recognition barriers, or family circumstances), not permanent disadvantage.
 
@@ -93,7 +93,7 @@ This pattern suggests immigrants DO recover financially over their career span. 
 
 ### Finding 3: The "Middle Years" (45–54) Show Unexpected Improvement for Immigrants
 
-A notable inflection point emerges at ages 45–54: immigrant high-burden rates decline **3.73 percentage points** (from 23.24% to 19.51%), while non-immigrant rates decline only **1.31 percentage points**. This suggests immigrants experience accelerated income growth or housing transitions in mid-career.
+A notable inflection point emerges at ages 45–54: immigrant high-burden rates decline 3.73 percentage points (from 23.24% to 19.51%), while non-immigrant rates decline only 1.31 percentage points. This suggests immigrants experience accelerated income growth or housing transitions in mid-career.
 
 | Age Group | Immigrants (30%+ burden) | Non-Immigrants (30%+ burden) | Change from Prior Age Group |
 |-----------|--------------------------|------------------------------|----------------------------|
@@ -101,7 +101,7 @@ A notable inflection point emerges at ages 45–54: immigrant high-burden rates 
 | 35–44     | 23.24%                   | 11.79%                       | +0.05 pp (immigrant), −1.51 pp (non-immigrant) |
 | 45–54     | **19.51%**               | 10.48%                       | **−3.73 pp (immigrant)** ✓, −1.31 pp (non-immigrant) |
 
-**What this reveals:** Rather than burden persisting or worsening, **immigrants show marked improvement at mid-career (45–54)**. This contradicts the narrative of permanent affordability crisis. Instead, it aligns with life-cycle patterns of income growth, home equity accumulation, and financial stabilization—the same pattern seen in non-immigrants, just delayed by 10–15 years.
+**What this reveals:** Rather than burden persisting or worsening, immigrants show marked improvement at mid-career (45–54). This contradicts the narrative of permanent affordability crisis. Instead, it aligns with life-cycle patterns of income growth, home equity accumulation, and financial stabilization—the same pattern seen in non-immigrants, just delayed by 10–15 years.
 
 ---
 
@@ -189,7 +189,8 @@ This dataset excludes households spending >100% of income on shelter, a critical
 
 - Households drawing down savings, relying on informal income, or in severe housing insecurity are not counted
 - Immigrants who left Canada are not in the 2021 Census
-- **Consequence:** The true affordability challenge for early-career immigrants (25–44) is likely more acute than these numbers show. Immigrants who experienced severe housing insecurity or departed Canada are not counted in the Census. The recovery observed at ages 45–54 may partially reflect survivor bias. If unsuccessful immigrants emigrated, the remaining sample is systematically skewed toward those who achieved stability.
+
+**Consequence:** The true affordability challenge for early-career immigrants (25–44) is likely more acute than these numbers show. Immigrants who experienced severe housing insecurity or departed Canada are not counted in the Census. The recovery observed at ages 45–54 may partially reflect survivor bias. If unsuccessful immigrants emigrated, the remaining sample is systematically skewed toward those who achieved stability.
 
 ### 2. Statistical Precision Varies by Group
 
@@ -198,7 +199,7 @@ Data from the 2021 Census 25% sample. Non-immigrant cohorts are substantially la
 - **Non-immigrants aged 25–34:** 3,355,560 respondents
 - **Immigrants aged 25–34:** 1,067,415 respondents
 
-**Consequence:** Immigrant estimates have wider confidence intervals and greater sampling variability. For example, immigrants aged 25–34 spending 30%+ on shelter are estimated at **23.19% (95% CI: 22.87–23.51%)**, while non-immigrants in the same age group are at **13.30% (95% CI: 13.15–13.44%)**. The non-immigrant estimate has narrower confidence bounds (±0.15 pp) due to a larger sample size (3,355,560 vs. 1,067,415), reflecting greater statistical precision. This wider uncertainty band applies to all immigrant subgroups and should be considered when interpreting percentage-point differences, particularly for smaller arrival cohorts (e.g., 1980–1990 immigrants) where sampling variability is greater.
+**Consequence:** Immigrant estimates have wider confidence intervals and greater sampling variability. For example, immigrants aged 25–34 spending 30%+ on shelter are estimated at 23.19% (95% CI: 22.87–23.51%), while non-immigrants in the same age group are at 13.30% (95% CI: 13.15–13.44%). The non-immigrant estimate has narrower confidence bounds (±0.15 pp) due to a larger sample size (3,355,560 vs. 1,067,415), reflecting greater statistical precision. This wider uncertainty band applies to all immigrant subgroups and should be considered when interpreting percentage-point differences, particularly for smaller arrival cohorts (e.g., 1980–1990 immigrants) where sampling variability is greater.
 
 ### 3. Geographic Hotspots Are Masked
 
