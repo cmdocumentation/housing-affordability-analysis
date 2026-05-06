@@ -117,9 +117,9 @@ Across all age groups, the proportion of immigrants spending 50% or more of inco
 **Why this matters:** While immigrants are more likely than non-immigrants to face extreme burden, the rate does **not increase with career progression**—it actually **decreases slightly** from 6.60% (age 25–34) to 5.72% (age 45–54).
 
 ## Recommended Next Steps:
-1. Acquire longitudinal wage data (T1 General/T4 by arrival cohort) to test the Income Recognition hypothesis
-2. Stratify by CMA (Toronto, Vancouver, Calgary, Montreal) to identify whether mid-career recovery holds in high-cost regions
-3. Cross-reference with immigration administrative records to quantify return migration rates at ages 25–34 (to assess survivor bias)
-4. If available, analyze housing tenure transitions (rental → owner) by age and immigrant status
-This suggests that severe affordability crises are not the norm, and that immigrants gradually move out of extreme burden categories as they age.
+The current analysis demonstrates correlation but not causation. The following datasets would test the proposed mechanisms:
 
+* **Income Recognition Hypothesis** — Acquire T1 General/T4 wage data stratified by arrival cohort and age. Prediction: Immigrants' wage growth (years 5–10) should exceed non-immigrants' baseline.
+* **Geographic Variation** — Stratify by Census Metropolitan Area (Toronto, Vancouver, Calgary, Montreal). Prediction: Mid-career recovery (45–54 improvement) should hold across high-cost regions.
+* **Survivor Bias** — Cross-reference 2021 Census with immigration administrative records to quantify return migration rates at ages 25–34. Prediction: Return rates should be elevated for high-burden immigrants.
+* **Housing Tenure Transitions** — Analyze rental → owner transitions by age and immigrant status. Prediction: Immigrants should show accelerated ownership transitions at ages 45–54, explaining burden decline.
