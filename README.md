@@ -33,7 +33,7 @@ Immigrants in Canada face significantly elevated housing affordability burdens i
 
 **Coverage:** 546 rows across 152 geographic regions (CMAs and CAs), ages 20–64, stratified by immigrant status and age group.
 
-**Necessary Data Points:** Immigration status, age group, shelter-cost-to-income ratio, core housing need
+**Necessary Data Points:** Immigration status, age group, shelter-cost-to-income ratio
 
 ---
 
@@ -46,7 +46,7 @@ Among people spending 30% or more of income on shelter, immigrants are consisten
 | Age Group | Immigrants (30%+ burden) | Non-Immigrants (30%+ burden) | Burden Ratio |
 |-----------|--------------------------|------------------------------|--------------|
 | 20–24     | 20.61%                   | 13.69%                       | 1.5x         |
-| 25–34     | 23.19%                   | 13.30%                       | **1.7x**     |
+| 25–34     | 23.19%                   | 13.30%                       | 1.7     |
 | 35–44     | 23.24%                   | 11.79%                       | **2.0x** ← Peak |
 | 45–54     | 19.51%                   | 10.48%                       | 1.9x         |
 | 55–64     | 18.34%                   | 11.58%                       | 1.6x         |
