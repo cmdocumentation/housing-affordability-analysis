@@ -16,7 +16,7 @@ Immigrants in Canada face significantly elevated housing affordability burdens i
   - [Finding 4: Extreme Housing Costs Are Rare and Improving](#finding-4-extreme-housing-costs-are-rare-and-improving)
 - [Interpretation](#interpretation)
   - [What the Data Actually Shows](#what-the-data-actually-shows)
-  - [Exploring Causes: Ideas for Future Research](#exploring-causes)
+  - [Exploring Causes: Ideas for Future Research](#exploring-causes-ideas-for-future-research)
 - [What This Analysis Can't Tell Us](#what-this-analysis-cant-tell-us)
 - [Recommended Next Steps](#recommended-next-steps)
 
