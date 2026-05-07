@@ -1,69 +1,89 @@
-# Data Cleaning & Preparation
+# Data Cleaning and Preparation
 
 ## Age Group Filtering
 
-**Primary analysis:** Ages 20–64 (working-age populations with employment-based income)
+**Focus:** Working-age adults (ages 20–64) with employment-based income
 
-**Exclusions and rationale:**
-- **Under 20:** Excluded due to incomplete income data and parental housing dependence
-- **65+:** Included in extended findings to assess whether affordability convergence patterns persist into retirement, despite different income dynamics (CPP, OAS, pensions). Results for 65+ are interpreted with caution due to these distinct income sources
+**What I excluded and why:**
+- **Under 20:** Excluded because income data is incomplete and housing is often subsidized by parents
+- **65+:** Included in the extended analysis to see if affordability patterns stay the same after retirement, but interpreted carefully since retirement income (CPP, OAS, pensions) works differently than wages
+
+This approach lets me compare apples to apples: people with similar income structures, while still exploring what happens later in life.
+
+---
 
 ## Non-Permanent Resident Filtering
 
-Non-permanent residents (temporary workers, international students) were excluded because they represent a distinct housing and employment context outside the scope of this comparative analysis between Canadian-born and permanent resident immigrants.
+I excluded non-permanent residents (temporary workers, international students) because they face very different housing and employment situations than permanent residents. My analysis compares permanent resident immigrants to Canadian-born residents, so including temporary residents would muddy that comparison.
 
-## Logically Impossible Combinations & Small-Cell Artifacts
+---
 
-Removed rows where immigration period and age group were impossible based on birth year calculations (e.g., immigrants arriving before 1980 who are currently 20–44 years old would require arrival at age negative to 5).
+## Removing Logically Impossible Data
 
-**Exception:** The table's universe includes "immigrants admitted to Canada," which encompasses both principal applicants and sponsored dependents (children). Therefore, rows combining 1980–1990 arrivals with ages 25–34 and 35–44 are **retained**, as they represent valid childhood arrivals and family reunification cases.
+I removed rows where the immigration period and age group didn't make sense together. For example: someone couldn't have immigrated before 1980 and be 20–24 years old today (the math doesn't work).
 
-**Removal criteria:** Rows with all-zero values (e.g., 1980–1990 arrivals aged 20–24) were removed as structural artifacts with no analytical value.
+**Important exception:** Statistics Canada's data includes both principal applicants and sponsored dependents (children brought over by parents). So rows showing people who arrived in 1980–1990 but are now 25–44 are actually valid. They immigrated as children. I kept those.
 
-## Statistics Canada Hierarchical Categories
+Rows with all zeros (e.g., no one in a particular category) were also removed, since they're just structural artifacts with no real data.
 
-StatsCan organizes data hierarchically. Applied the following filtering logic:
+---
 
-- **Parent-level rows not needed:** Filtered out (e.g., "Total Age")
-- **Leaf-level categories retained:** Specific age groups (e.g., "20 to 24 years," "25 to 34 years")
-- **Parent categories when needed:** Retained only parent level (e.g., "Canada") and filtered out child categories (e.g., individual provinces)
+## Handling Statistics Canada's Hierarchical Structure
 
-## Field Cleanup
+Statistics Canada organizes data in layers (parent categories that contain child categories). I applied this logic:
 
-Removed:
-- Non-data rows (table titles, release dates, footnotes, empty totals)
-- Irrelevant fields
+- **Kept:** Specific, detailed categories (e.g., "20 to 24 years," "25 to 34 years")
+- **Removed:** Broad parent categories that just summarized the details below them (e.g., "Total Age")
+- **Exception:** Geographic parent categories like "Canada" were kept so I could see the national picture, but individual provinces were removed
 
-## Data Restructuring & Normalization
+This gave me the most granular useful data without duplication.
 
-**Original structure:** Immigrant status and immigration period grouped in a single column
+---
 
-**Normalized structure:** Separated immigrant status and period into two distinct attributes for clarity and scalability
+## Cleaning Up Fields
 
-StatsCan Table 98-10-0328-01 had hierarchical row grouping where parent categories (Immigrant Status, Immigration Period) spanned multiple rows. Used a **Fill Down function** to repeat parent values across all associated child rows, creating a flat structure suitable for SQL aggregation.
+Non-data rows (table titles, release dates, footnotes, and empty totals) were removed. Irrelevant columns were deleted.
 
-## Field Renaming
+---
 
-Replaced StatsCan's raw column names with readable, analysis-friendly names.
+## Restructuring the Data for Analysis
 
-## Data Type Conversion
+**The challenge:** Statistics Canada's raw table had immigrant status and immigration period grouped together in a single column, making it hard to work with.
 
-**Issue:** The Count column imported with comma thousand-separators (e.g., "8,945"), formatted as text
+**The fix:** I separated them into two distinct columns: one for immigrant status, one for arrival period. This made the data much easier to query and aggregate in SQL.
 
-**Solution:** Converted to numeric format to enable SQL aggregation functions
+I used a Fill Down function to repeat parent category values across all the rows that belonged to them, creating a clean, flat table that SQL could easily aggregate.
 
-**Why this matters:** Text-formatted numbers will cause `SUM()` and other aggregate functions to fail silently or produce unexpected results. Verifying data types during import is critical.
+---
 
-## Confidence Interval Methodology
+## Renaming Columns for Clarity
 
-Confidence intervals are reported at the **category level** (e.g., for the "Less than 15% burden" category within each age–immigrant group).
+I replaced Statistics Canada's technical column names with readable, analysis-friendly names that made sense in context.
 
-**Calculation method:** Percentage confidence intervals are derived by scaling the count-level CIs (original StatsCan 95% CI bounds) by the group total.
+---
 
-**Interpretation:** These represent uncertainty in the category-level count and its percentage of the group, **not** uncertainty across aggregated categories.
+## Converting Data Types
+
+**The problem:** When the data imported, the Count column had comma thousand-separators (e.g., "8,945") and was formatted as text, not numbers.
+
+**The solution:** I converted it to numeric format so I could run SQL aggregation functions like `SUM()`.
+
+**Why this matters:** If you try to sum text-formatted numbers, SQL will either fail silently or give you wrong results. Catching this during import is critical for data integrity.
+
+---
+
+## How Confidence Intervals Were Calculated
+
+I report confidence intervals at the category level. For example, the uncertainty around "15% of immigrants aged 25–34 spend less than 15% on housing."
+
+**Method:** I took Statistics Canada's original 95% confidence intervals for counts and scaled them by the group total to get percentage-level confidence intervals.
+
+**What they mean:** These intervals tell you the likely range for a specific category's count and percentage within its age–immigrant group. They don't reflect uncertainty across multiple aggregated categories, just the single category you're looking at.
+
+---
 
 ## Tools & Technologies Used
 
-- **Data Processing:** Excel, SQL
+- **Data Processing:** Excel, DB Browser for SQLite
 - **Visualization/Analysis:** Tableau
 - **Version Control:** Git
