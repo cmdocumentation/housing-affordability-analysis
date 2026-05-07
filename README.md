@@ -16,7 +16,7 @@ Immigrants in Canada face significantly elevated housing affordability burdens i
   - [Finding 4: Extreme Housing Costs Are Rare and Improving](#finding-4-extreme-housing-costs-are-rare-and-improving)
 - [Interpretation](#interpretation)
   - [What the Data Actually Shows](#what-the-data-actually-shows)
-  - [Mechanisms Explaining the Burden Gap: Testable Hypotheses](#mechanisms-explaining-the-burden-gap-testable-hypotheses)
+  - [Exploring Causes: Ideas for Future Research](#exploring-causes)
 - [What This Analysis Can't Tell Us](#what-this-analysis-cant-tell-us)
 - [Recommended Next Steps](#recommended-next-steps)
 
@@ -142,7 +142,7 @@ When we look at the worst-case scenario (people spending half or more of their i
 
 ---
 
-## Mechanisms Explaining the Burden Gap: Testable Hypotheses
+## Exploring Causes: Ideas for Future Research
 
 **Note:** The 65+ findings on convergence are suggestive but require careful interpretation, as retirement income dynamics (CPP, OAS, pensions) differ substantively from employment-based income. The factors driving 65+ convergence may differ from those operating in ages 20–64.
 
