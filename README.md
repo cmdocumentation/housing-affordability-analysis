@@ -10,9 +10,9 @@ Immigrants in Canada face significantly elevated housing affordability burdens i
 
 - [Data Source](#data-source)
 - [Key Findings](#key-findings)
-  - [Finding 1: Housing Burden Disparities Peak in Mid-Career](#finding-1)
-  - [Finding 2: Finding 2: A Mid-Career Reprieve: The 45–54 Age Pattern](#finding-2)
-  - [Finding 3: Extreme Housing Cost Burdens Remain Rare and Stable](#finding-3)
+  - [Finding 1: Housing Burden Disparities Peak in Mid-Career](#finding-1-housing-burden-disparities-peak-in-mid-career)
+  - [Finding 2: A Mid-Career Reprieve: The 45–54 Age Pattern](#finding-2-a-mid-career-reprieve-the-45-54-age-pattern)
+  - [Finding 3: Extreme Housing Cost Burdens Remain Rare and Stable](#finding-3-extreme-housing-cost-burdens-remain-rare-and-stable)
 - [Interpretation](#interpretation)
   - [What the Data Actually Shows](#what-the-data-actually-shows)
   - [Exploring Causes: Ideas for Future Research](#exploring-causes-ideas-for-future-research)
