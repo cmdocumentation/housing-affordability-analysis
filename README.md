@@ -10,10 +10,9 @@ Immigrants in Canada face significantly elevated housing affordability burdens i
 
 - [Data Source](#data-source)
 - [Key Findings](#key-findings)
-  - [Finding 1: The Early-Career Housing Gap](#finding-1-the-early-career-housing-gap)
-  - [Finding 2: Housing Gets More Affordable as Immigrants Age](#finding-2-housing-gets-more-affordable-as-immigrants-age)
-  - [Finding 3: The Mid-Career Turning Point](#finding-3-the-mid-career-turning-point)
-  - [Finding 4: Extreme Housing Costs Are Rare and Improving](#finding-4-extreme-housing-costs-are-rare-and-improving)
+  - [Finding 1: Housing Burden Disparities Peak in Mid-Career](#finding-1)
+  - [Finding 2: Finding 2: A Mid-Career Reprieve: The 45–54 Age Pattern](#finding-2)
+  - [Finding 3: Extreme Housing Cost Burdens Remain Rare and Stable](#finding-3)
 - [Interpretation](#interpretation)
   - [What the Data Actually Shows](#what-the-data-actually-shows)
   - [Exploring Causes: Ideas for Future Research](#exploring-causes-ideas-for-future-research)
@@ -68,11 +67,9 @@ In 2021, immigrants show elevated housing cost burdens across all age groups com
 
 **Note:** Because this data comes from a sample survey, not a full count, there's some uncertainty around the exact numbers. The numbers in brackets show the range where the true number most likely falls (we can be 95% confident about that). 
 
----
+#### Supporting Detail: The Affordability Picture (Low-Cost Housing)
 
-### Finding 2: The 25–54 Affordability Squeeze
-
-Immigrants' housing affordability varies significantly by age. Young immigrants (20–24) achieve relatively decent low-cost housing rates (37%), but this drops sharply in their 25–54 years, hitting a low of 29.55% at ages 35–44. Only at ages 55+ do we see rates approach the young adult level, with 46.56% of immigrants aged 65+ in low-cost housing.
+The same mid-career squeeze appears when we measure affordability differently—looking at who has housing costs below 15% of income:
 
 | Age Group | Immigrants (<15% burden) | Non-Immigrants (<15% burden) |
 |-----------|--------------------------|------------------------------|
@@ -83,11 +80,11 @@ Immigrants' housing affordability varies significantly by age. Young immigrants 
 | 55–64     | 46.44%                   | 59.69%                       |
 | 65+       | 46.56%                   | 56.13%                       |
 
-**Why this matters:** The persistent gap (ranging from 9.57 to 16.51 percentage points) suggests immigrants face structural barriers to affordable housing throughout their working years. Importantly, this is cross-sectional data: we're observing different immigrants at different ages in 2021, not following the same cohort over time. The 55-year-old immigrants today may have had different arrival experiences, economic conditions, or selection pressures than today's 25-year-olds will face. However, the pattern is clear: mid-career immigrants (ages 25–54) struggle more with housing costs than either young or older age groups.
+This shows the pattern holds across multiple metrics, not just one threshold.
 
 ---
 
-### Finding 3: A Mid-Career Reprieve: The 45–54 Age Pattern
+### Finding 2: A Mid-Career Reprieve: The 45–54 Age Pattern
 
 Within the mid-career struggle, there's an interesting pattern: immigrants aged 45–54 show better housing affordability than the 35–44 group. The percentage of immigrants with high housing burden (30%+) drops from 23.24% (ages 35–44) to 19.51% (ages 45–54), a 3.73 percentage point improvement. Non-immigrants show a smaller improvement (1.31 pp).
 
@@ -101,7 +98,7 @@ Within the mid-career struggle, there's an interesting pattern: immigrants aged 
 
 ---
 
-### Finding 4: Extreme Housing Cost Burdens Remain Rare and Stable
+### Finding 3: Extreme Housing Cost Burdens Remain Rare and Stable
 
 Extreme housing cost burdens (spending 50%+ of income on housing) affect a small but consistent subset of immigrants across all ages. The prevalence among immigrants ranges from 5.7% to 6.6% and shows no systematic worsening pattern with age.
 
