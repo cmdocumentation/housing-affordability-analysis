@@ -123,7 +123,7 @@ Extreme housing cost burdens (spending 50%+ of income on housing) affect a small
 
 **1. Young immigrants have higher housing burdens than non-immigrants.** Between ages 25–44, immigrants are 1.7–2.0 times more likely to spend 30% or more of their income on housing than non-immigrants. This gap is real and significant.
 
-**2. The struggle eases as immigrants age.** By ages 55–64, immigrants and non-immigrants show similar patterns of housing affordability. This is important: it means immigrants aren't permanently stuck. They face a tougher start, but they do achieve stability, just on a delayed timeline.
+**2. The struggle eases as immigrants age.** By ages 55–64, immigrants and non-immigrants show similar patterns of housing affordability.
 
 **2. Housing affordability varies by age group.** Immigrants aged 25–54 show lower rates of affordable housing (29–38% with <15% burden) compared to those aged 20–24 and 55+ (37–47%). This could reflect life-stage factors, or it could reflect different arrival cohorts with different experiences. We cannot claim from cross-sectional data that individual immigrants experience this trajectory over their lifetimes.
 
