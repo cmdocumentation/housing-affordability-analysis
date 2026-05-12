@@ -76,9 +76,9 @@ A 1.7–2.0x difference is substantial and worth paying attention to. To put it 
 
 ---
 
-### Finding 2: Housing Gets More Affordable as Immigrants Age
+### Finding 2: The Mid-Career Dip
 
-While immigrants struggle more with high housing costs in their early years, they're also more likely to achieve low-cost housing as they get older. This is a sign that their financial situations are improving.
+Immigrants don't struggle uniformly across their lifespan. They face their worst housing affordability crisis during their mid-career years (ages 25–54). Early-career immigrants (20–24) actually show relatively decent low-cost housing rates (37%), but this plummets as they enter their 30s and 40s, hitting a low of 29.55% at ages 35–44. The gap between immigrants and non-immigrants widens during this period, suggesting that mid-career is when financial pressures are greatest.
 
 | Age Group | Immigrants (<15% burden) | Non-Immigrants (<15% burden) |
 |-----------|--------------------------|------------------------------|
@@ -89,9 +89,7 @@ While immigrants struggle more with high housing costs in their early years, the
 | 55–64     | 46.44%                   | 59.69%                       |
 | 65+       | 46.56%                   | 56.13%                       |
 
-**Why this matters:** Look at ages 55–64. Nearly half of all immigrants (46.44%) have low housing costs, compared to about six in ten non-immigrants (59.69%). By age 65+, immigrants are even closer to non-immigrants (46.56% vs. 56.13%).
-
-This tells us something important: immigrants don't get stuck in expensive housing situations forever. Their financial stability improves over time. We can't say from this data alone whether that improvement comes from higher earnings, moving to cheaper housing, changes in family size, or some other reason, but the pattern is clear: the longer immigrants are in Canada, the more likely they are to reach affordable housing. That's a sign of real recovery.
+**Why this matters:** Only in late career (55+) do immigrants begin to recover, with 46.56% achieving low-cost housing by age 65+. This pattern suggests that mid-career life events (raising families, higher housing expectations, mortgage commitments) create disproportionate pressure on immigrant households, even as their incomes presumably grow. Recovery happens, but it takes decades.
 
 ---
 
