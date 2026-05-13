@@ -66,9 +66,9 @@ individual trajectories.*
 
 Recent immigrants face a persistent affordability disadvantage that is independent of age—evidence that settlement barriers, not mere recency, drive housing insecurity.
 
-![Housing Burden by Age Group](./images/Dashboard_HousingBurden.png)
+![Housing Burden by Age Group](./Dashboard_HousingBurden.png)
 
-[View interactive visualization on Tableau Public]([https://public.tableau.com/views/HousingBurdenbyAgeGroupImmigrantsvs_Non-Immigrants/DashboardHousingBurdenByAgeGroup?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link])
+[View interactive visualization on Tableau Public](https://public.tableau.com/views/HousingBurdenbyAgeGroupImmigrantsvs_Non-Immigrants/DashboardHousingBurdenByAgeGroup?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 To isolate the effect of recency from age, we compare immigrants in the same age group but with vastly different tenure: a 45–54-year-old who arrived 40+ years ago versus a 45–54-year-old who arrived fewer than 5 years ago. The 30%+ shelter cost burden increases sharply with arrival recency and remains elevated across all age groups:
 
