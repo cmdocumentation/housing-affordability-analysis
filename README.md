@@ -27,7 +27,7 @@ individual trajectories.*
 
 - [Data Source](#data-source)
 - [Key Findings](#key-findings)
-  - [Finding 1: Settlement Barriers Outweigh Time in Country—The Recency Penalty](#finding-1-settlement-barriers-outweigh-time-in-country-the-recency-penalty)
+  - [Finding 1: Settlement Barriers Outweigh Time in Country: The Recency Penalty](#finding-1-settlement-barriers-outweigh-time-in-country-the-recency-penalty)
   - [Finding 2: Housing Burden Disparities Peak in Mid-Career](#finding-2-housing-burden-disparities-peak-in-mid-career)
   - [Finding 3: A Mid-Career Reprieve: The 45–54 Age Pattern](#finding-3-a-mid-career-reprieve-the-4554-age-pattern)
   - [Finding 4: Extreme Housing Cost Burdens Remain Rare and Stable](#finding-4-extreme-housing-cost-burdens-remain-rare-and-stable)
