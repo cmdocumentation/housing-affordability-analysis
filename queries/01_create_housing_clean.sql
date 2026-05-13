@@ -1,18 +1,6 @@
--- ============================================================
--- Query 1: Create housing affordability table
+ -- QUERY 1: Create housing affordability table
 -- Purpose: Import StatsCan census data and standardize column naming
--- Author: Christina
--- Date: April 2026
--- ============================================================
-
--- DATA SOURCE
--- Table: 98-10-00245-01 (Shelter-cost-to-income ratio by visible minority 
---        and immigrant status)
--- Source: Statistics Canada, 2021 Census (25% sample)
--- Universe: Owner and tenant households with income > $0 and 
---           shelter-cost-to-income ratio < 100%, in non-reserve 
---           non-farm private dwellings
-
+-- Source: Statistics Canada Table 98-10-0328-01, Census 2021
 CREATE TABLE housing AS
 SELECT 
   "Immigrant Status" AS immigrant_status,
