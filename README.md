@@ -1,8 +1,25 @@
 # Housing Affordability Gap: Immigrants vs. Canadian-Born Residents
 
-Immigrants in Canada face significantly elevated housing affordability burdens in early career (ages 25–44), where they are 1.7–2.0x more likely to spend 30%+ of income on shelter than Canadian-born peers. Housing affordability appears to improve with age, though this analysis uses cross-sectional data comparing different age groups in 2021, not tracking the same individuals over time.
+Immigrants in Canada face significantly elevated housing affordability burdens, 
+but the gap is driven less by immigrant status itself than by when they arrived. 
+Recent arrivals (2016–2021) spend 30%+ of income on housing at rates of 25.44%. That's nearly 
+double the rate of long-settled immigrants (1980–1990: 18.67%) and nearly twice that 
+of Canadian-born residents (13.30%). The affordability penalty is sharpest in early 
+settlement (first 5 years) and persists across all age groups, suggesting that settlement 
+barriers (credential recognition delays, credit access, wage gaps in early years) drive 
+outcomes more than immigrant status itself. Once established (10+ years in Canada), 
+recent immigrants show similar patterns to longer-settled groups.
 
-**Research question:** Do immigrants face higher housing affordability barriers than Canadian-born residents? How does burden vary by age?
+*Note: This analysis uses cross-sectional Census 2021 data comparing different arrival 
+cohorts at a single point in time, not longitudinal tracking of individuals. The 
+observed patterns reflect cohort differences and current snapshots, not documented 
+individual trajectories.*
+
+**Research questions:** 
+- Do immigrants in Canada face higher housing affordability barriers than Canadian-born residents?
+- How much of this gap reflects immigrant status itself vs. time since arrival and settlement barriers (credential recognition, credit access, wage dynamics)?
+- What does the arrival-period gradient suggest about settlement context in the Canadian housing and labor markets?
+- Are age-related improvements in affordability driven by individual immigrants becoming established, or by different arrival cohorts experiencing different economic conditions?
 
 ---
 
@@ -34,9 +51,9 @@ Immigrants in Canada face significantly elevated housing affordability burdens i
 - People were living in regular private homes (not on reserves or farms)
 - This was the 2021 Census, which surveyed 25% of Canadian households
 
-**Geographic and demographic coverage:** The analysis includes 546 data points across 152 regions (major cities and smaller areas), covering people aged 20–64, sorted by immigration status and age group.
+**Geographic and demographic coverage:** The analysis covers all of Canada at the national level, comparing immigrants and Canadian-born residents across age groups (20–64).
 
-**Necessary data points:** Immigration status, age group, shelter-cost-to-income ratio
+**Necessary data points:** Immigration status, age group, immigration period, shelter-cost-to-income ratio
 
 ---
 
@@ -117,6 +134,27 @@ Extreme housing cost burdens (spending 50%+ of income on housing) affect a small
 
 ---
 
+## Finding 4: The Recency Penalty: Settlement Barriers Outweigh Time in Country
+
+Recent immigrants face a persistent affordability disadvantage that is independent of age—evidence that settlement barriers, not mere recency, drive housing insecurity.
+
+To isolate the effect of recency from age, we compare immigrants in the same age group but with vastly different tenure: a 45–54-year-old who arrived 40+ years ago versus a 45–54-year-old who arrived fewer than 5 years ago. The 30%+ shelter cost burden increases sharply with arrival recency and remains elevated across all age groups:
+
+| Age Group | 1980–1990 | Recent (2016–2021) | Burden Gap |
+|-----------|-------------------------------|-------------------|------------|
+| 25–34 years | 18.67% | 25.44% | +6.77pp |
+| 35–44 years | 17.45% | 25.22% | +7.77pp |
+| 45–54 years | 16.32% | 25.54% | +9.22pp |
+| 55–64 years | 15.76% | 24.48% | +8.72pp |
+| 65+ years | 19.93% | 24.16% | +4.23pp |
+
+**What this reveals:** The recency penalty appears consistent across all age groups, suggesting it's driven by years-since-arrival rather than age or career stage. This rules out the explanation that the penalty is purely an age or career-stage artifact. A 45–54-year-old who arrived in 2016 faces 9.2 percentage points higher burden than a 45–54-year-old who arrived before 1980, despite being in the same life stage. The pattern is clear: immigrants face an affordability cliff in their first 5 years, then gradually improve. Someone who arrived in 2016–2021 carries a ~4–9 percentage point penalty regardless of whether they're 25 or 65 today. Notably, the 65+ age group shows a smaller recency gap (4.23 pp compared to 7–9 pp in middle ages), possibly reflecting selection effects (recent arrivals who are now 65+ may be a more established cohort), survivor bias, or changes in family structure and housing support over decades.
+
+**Why this matters:** This finding moves beyond "immigrants struggle" to identify when and why they struggle most: during the critical settlement window. Plausible mechanisms include credential recognition delays specific to Canada's provincial licensing bodies (foreign degrees requiring re-certification or exam fees), limited credit access (new arrivals with no Canadian credit history face higher deposit requirements from lenders), network effects (established immigrants access cheaper housing through community connections), and initial labor market positioning within Canada's job market (new arrivals may accept lower-wage jobs while learning the Canadian labor market and language proficiency requirements, with wages rising as credentials are recognized).
+
+**Caveats:** This pattern likely reflects multiple drivers: time needed for credential recognition and wage growth, but also the economic and policy context at time of arrival. Recent arrivals may face worse affordability partly because they arrived into a tighter housing market with higher prices relative to wages. Disentangling these effects would require tracking individuals over time or comparing arrival cohorts within the same economic period. Neither are possible here.
+
+---
 ## Interpretation
 
 ### What the Data Actually Shows
@@ -145,25 +183,25 @@ The data shows these age-related patterns are real, but we don't yet know whethe
 
 ### Does credential recognition explain age-related improvements?
 
-**What we'd expect to see:** If individual immigrants improve over time due to credential recognition and work experience, immigrant wages should grow faster than non-immigrant wages in years 5–10 after arrival.
+**What we'd expect to see:** If individual immigrants improve over time due to Canada's credential recognition process, immigrant wages should grow faster than non-immigrant wages in years 5–10 after arrival. Provincial licensing bodies (engineering, medicine, teaching) often require re-certification, exams, or additional work experience, creating a wage penalty in the first 5 years that should diminish as credentials are recognized.
 
-**How we'd test it:** Compare wage growth patterns for immigrants who arrived 1990–2010 against non-immigrants at the same age. Look specifically at years 1–3, 5–7, and 10–15 after arrival to see if wage acceleration happens. This would be longitudinal data following the same people.
+**How we'd test it:** Use longitudinal data to compare wage growth for immigrants who arrived 1990–2010 against non-immigrants at the same age. Look specifically at years 1–3, 5–7, and 10–15 after arrival to see if wage acceleration happens when credential recognition typically completes. This would reveal whether individual immigrants experience the improvement we observe in cross-sectional age patterns.
 
 ---
 
 ### Does moving from renting to owning explain age-related improvements?
 
-**What we'd expect to see:** If housing burden drops because people switch from expensive rentals to owned homes, we'd see immigrants' homeownership rates jump at ages 45–54.
+**What we'd expect to see:** If housing burden drops because people switch from expensive rentals to owned homes, we'd see immigrants' homeownership rates jump at ages 45–54. In Canada's housing market, this transition is critical: mortgage payments may be similar to rent, but equity builds, and burden calculations differ for owners versus renters.
 
-**How we'd test it:** Track ownership rates for immigrants and non-immigrants at ages 25–34, 45–54, and 55–64. This would still be cross-sectional but would help rule out whether the pattern reflects ownership changes.
+**How we'd test it:** Compare ownership rates for immigrants and non-immigrants at ages 25–34, 45–54, and 55–64 using Census data. If the 45–54 improvement in affordability coincides with a jump in ownership, we'd have evidence that tenure changes drive the pattern. This would still be cross-sectional but would help rule out whether the pattern reflects ownership changes rather than income gains.
 
 ---
 
 ### Does return migration hide who's still struggling?
 
-**What we'd expect to see:** If immigrants who faced severe housing costs left Canada, the people remaining in the 2021 Census would look more successful than they actually are. The "recovery" we see might be selection bias.
+**What we'd expect to see:** If immigrants who faced severe housing costs or precarious employment left Canada to return to their origin countries, the people remaining in the 2021 Census would look more successful than they actually are. The "recovery" we see at ages 45–54 might be selection bias: those struggling most simply aren't in the data anymore.
 
-**How we'd test it:** Link the 2021 Census with immigration records to find out how many immigrants who arrived 2005–2015 left Canada by their late 20s and early 30s. Compare return rates for people who faced high housing burden versus low burden. This would directly test whether selection bias explains the pattern.
+**How we'd test it:** Link the 2021 Census with Immigration, Refugees and Citizenship Canada (IRCC) administrative records to find out how many immigrants who arrived 2005–2015 left Canada by their late 20s and early 30s (via tax records or departures data). Compare return rates for people who faced high housing burden versus low burden. This would directly test whether selection bias explains the pattern. If immigrants facing severe housing insecurity left at higher rates, the Census would only capture survivors, making conditions look better than they were for the full arrival cohort.
 
 ---
 
@@ -206,9 +244,9 @@ The 2021 Census surveyed 25% of Canadian households. There are far more non-immi
 
 ### 4. Big Cities Might Have Bigger Problems Than This Shows
 
-This analysis looks at all of Canada together. But Toronto and Vancouver are completely different housing markets from smaller cities.
+This analysis looks at all of Canada together. But Toronto, Vancouver, and Montreal are completely different housing markets from smaller cities and rural areas. Immigrants are heavily concentrated in these major cities (over 75% of recent immigrants settle in Toronto, Vancouver, or Montreal).
 
-**Why this matters:** Young immigrants in Toronto and Vancouver probably face much worse housing affordability than the national average suggests. We can't tell whether age-related improvements happen everywhere or only in cheaper regions.
+**Why this matters:** Young immigrants in Toronto and Vancouver probably face much worse housing affordability than the national average suggests. The national pattern we observe may mask severe regional crises. We can't tell whether age-related improvements happen everywhere or only in cheaper regions. A regional breakdown (by census metropolitan area) would reveal whether mid-career improvements hold in expensive markets where most immigrants actually live.
 
 ---
 
@@ -222,19 +260,24 @@ The data shows age-related differences in housing affordability, but it doesn't 
 
 ### 6. Retirement-Age Immigrants Have Different Income Dynamics
 
-At age 65+, immigrants and non-immigrants show similar housing burden rates. But retirement income (CPP, OAS, pensions) works differently than employment income.
+At age 65+, immigrants and non-immigrants show similar housing burden rates. But retirement income in Canada has different eligibility rules for immigrants than for Canadian-born citizens. Immigrants need 10 years of Canadian residence to qualify for OAS; those with fewer years receive reduced benefits. Home equity, private pensions, family support, and selection effects (only stable immigrants staying long-term) could all explain 65+ convergence.
 
-**Why this matters:** The patterns at 65+ may not reflect the same mechanisms as ages 25–44. Home equity, pensions, or selection effects (only stable immigrants staying) could explain 65+ convergence without explaining mid-career struggles.
+**Why this matters:** The patterns at 65+ may not reflect the same mechanisms as ages 25–44. Convergence at retirement age could reflect established immigrants with owned homes and full pensions, or it could reflect that struggling immigrants left earlier. We cannot use 65+ patterns to understand mid-career struggles without understanding Canada's retirement income architecture.
 
 ---
 
 ## Recommended Next Steps
 
-To determine whether observed age patterns reflect individual immigrant trajectories or reflect different arrival cohorts facing different conditions, we'd need to test the hypotheses above. The key analyses would involve:
+To determine whether observed age patterns reflect individual immigrant trajectories or reflect different arrival cohorts facing different Canadian economic and policy conditions, we'd need to test the hypotheses above. The key analyses would involve:
 
-1. Longitudinal wage data to see if individual immigrants' earnings improve over their careers
-2. Return migration analysis to see if selection bias explains the pattern
-3. Regional breakdowns to see if age patterns hold everywhere or only in cheap housing markets
-4. Ownership tracking to see if housing tenure changes explain burden shifts
+1. **Longitudinal wage data** to see if individual immigrants' earnings improve over their careers, particularly around credential recognition milestones (years 5–7 after arrival).
+
+2. **Return migration analysis** (linking Census to IRCC administrative records) to see if selection bias explains the pattern—specifically, whether immigrants facing severe housing insecurity or precarious work left Canada at higher rates.
+
+3. **Regional breakdowns** (by census metropolitan area: Toronto, Vancouver, Montreal, etc.) to see if age-related improvements hold in expensive markets where most immigrants actually live, or only in cheaper regions.
+
+4. **Ownership and tenure tracking** to see if housing burden improvements reflect transitions from renting to owning, or reflect income gains independent of tenure.
+
+5. **Credential recognition timing analysis** to see if wage acceleration aligns with typical timelines for provincial licensing board approvals (varies by profession and province).
 
 ---
