@@ -53,6 +53,8 @@ individual trajectories.*
 
 **Geographic and demographic coverage:** The analysis covers all of Canada at the national level, comparing immigrants and Canadian-born residents across age groups (20–64).
 
+*Note: According to the 2021 Census, 53.4% of recent immigrants (2016–2021) settled in Toronto, Montreal, or Vancouver. This national-level analysis likely understates housing affordability challenges in the three cities where the majority of recent arrivals actually live. A regional breakdown by census metropolitan area is needed to reveal whether age-related patterns hold in expensive markets or only in cheaper regions.*
+
 **Necessary data points:** Immigration status, age group, immigration period, shelter-cost-to-income ratio
 
 ---
@@ -103,15 +105,13 @@ This shows the pattern holds across multiple metrics, not just one threshold.
 
 ### Finding 2: A Mid-Career Reprieve: The 45–54 Age Pattern
 
-Within the mid-career struggle, there's an interesting pattern: immigrants aged 45–54 show better housing affordability than the 35–44 group. The percentage of immigrants with high housing burden (30%+) drops from 23.24% (ages 35–44) to 19.51% (ages 45–54), a 3.73 percentage point improvement. Non-immigrants show a smaller improvement (1.31 pp).
+Within the mid-career struggle, immigrants aged 45–54 show slightly better housing affordability than the 35–44 group (19.51% vs. 23.24% with 30%+ burden). However, because this is cross-sectional data, we're comparing different cohorts, not tracking individual improvement over time. This pattern could reflect income gains, tenure changes (renting to owning), or different economic conditions faced by different arrival cohorts. We can't distinguish these with Census data alone.
 
 | Age Group | Immigrants (30%+ burden) | Non-Immigrants (30%+ burden) | Change from Prior Age Group |
 |-----------|--------------------------|------------------------------|----------------------------|
 | 25–34     | 23.19%                   | 13.30%                       | —                          |
 | 35–44     | 23.24%                   | 11.79%                       | +0.05 pp (immigrant), −1.51 pp (non-immigrant) |
 | 45–54     | **19.51%**               | 10.48%                       | **−3.73 pp (immigrant)** ✓, −1.31 pp (non-immigrant) |
-
-**What this reveals:** The 45–54 age group experiences notably better housing affordability than the 35–44 group. This could reflect several factors: individuals in this cohort may have built wealth and equity over time, household composition may have changed (children aging out), or career earnings may have plateaued at higher levels. However, because this is cross-sectional data, we're comparing different people at different ages, not tracking the same individuals. The 45–54 immigrants today are a different cohort (with different arrival years, immigration policies, and economic contexts) than the 35–44 group. To determine whether individual immigrants actually experience this improvement over their lifetimes, longitudinal data would be required.
 
 ---
 
@@ -130,11 +130,11 @@ Extreme housing cost burdens (spending 50%+ of income on housing) affect a small
 
 **What this reveals:** While immigrants are roughly twice as likely as non-immigrants to face extreme housing cost burdens, the prevalence remains relatively low and stable across ages (not rising steeply in mid-career as might be expected). The modest variation (6.60% → 5.72% → 5.78%) could reflect either cohort differences or genuine age-related patterns, but neither interpretation is available from cross-sectional data alone. The absence of escalation is notable: extreme housing stress doesn't accumulate in a worsening trajectory for this population.
 
-**Why this matters:** This finding offers partial reassurance: extreme housing precarity isn't a growing or deepening problem as observed in this snapshot. However, the persistent 2× gap remains important, even at lower prevalence levels. It suggests that while most immigrants avoid the worst outcomes, a meaningful portion consistently faces housing insecurity that non-immigrants encounter far less frequently.
+**Why this matters:** This finding offers partial reassurance: extreme housing precarity isn't a growing or deepening problem as observed in this snapshot. However, the persistent 2× gap remains important, even at lower prevalence levels. This finding is mixed: the absolute prevalence (5–6%) is reassuringly low, suggesting catastrophic housing costs are not widespread. However, the persistent 2× gap is important. It means a meaningful subset of immigrants faces housing insecurity that non-immigrants rarely experience. Policy should address both the severity (rare but real) and the disparity (consistent 2× burden).
 
 ---
 
-## Finding 4: The Recency Penalty: Settlement Barriers Outweigh Time in Country
+### Finding 4: The Recency Penalty: Settlement Barriers Outweigh Time in Country
 
 Recent immigrants face a persistent affordability disadvantage that is independent of age—evidence that settlement barriers, not mere recency, drive housing insecurity.
 
@@ -159,17 +159,9 @@ To isolate the effect of recency from age, we compare immigrants in the same age
 
 ### What the Data Actually Shows
 
-**1. Young immigrants have higher housing burdens than non-immigrants.** Between ages 25–44, immigrants are 1.7–2.0 times more likely to spend 30% or more of their income on housing than non-immigrants. This gap is real and significant.
-
-**2. The struggle eases as immigrants age.** By ages 55–64, immigrants and non-immigrants show similar patterns of housing affordability.
-
-**2. Housing affordability varies by age group.** Immigrants aged 25–54 show lower rates of affordable housing (29–38% with <15% burden) compared to those aged 20–24 and 55+ (37–47%). This could reflect life-stage factors, or it could reflect different arrival cohorts with different experiences. We cannot claim from cross-sectional data that individual immigrants experience this trajectory over their lifetimes.
-
-**3. Older immigrants in the 2021 Census have more affordable housing.** Nearly half of immigrants aged 55+ spend less than 15% of their income on housing. This is noteworthy, but it tells us about this age group in 2021, not whether today's 25-year-old immigrants will experience the same conditions when they reach 55+.
-
-**4. The severe housing crisis is rare across all age groups.** Only 5–6% of immigrants at any age spend 50% or more of their income on shelter. The rate is stable across ages, suggesting that while mid-career immigrants face higher burden overall, catastrophic housing costs are not common at any life stage.
-
-**5. Age-related patterns differ between immigrants and non-immigrants.** Immigrants aged 45–54 show better housing affordability than those aged 35–44 (a 3.73 pp improvement in high-burden rates), while non-immigrants show a smaller improvement (1.31 pp). This age-specific pattern is notable but reflects different cohorts, not individual trajectories.
+1. **Recent arrivals face a persistent affordability penalty independent of age.** Across all age groups (25–64), immigrants who arrived 2016–2021 spend 6–9 percentage points more of their income on housing than those who arrived 1980–1990. This suggests the barrier is settlement-related (credential recognition, credit access, wage dynamics) rather than age or life stage. Once established (10+ years), recent immigrants show similar patterns to longer-settled groups.
+2. **Mid-career immigrants (ages 25–44) face the sharpest burden.** Immigrants aged 25–34 and 35–44 are 1.7–2.0× more likely than non-immigrants to spend 30%+ of income on housing. This gap narrows significantly by age 55+, where immigrants and non-immigrants converge. Caveat: This reflects different cohorts at different ages, not individual trajectories over time.
+3. **Extreme housing precarity is rare and stable across ages.** Only 5–6% of immigrants at any age spend 50%+ of income on housing, with no worsening pattern as they age. While immigrants face this extreme burden at roughly twice the rate of non-immigrants, the low absolute prevalence suggests catastrophic housing costs are not a widespread experience.
 
 ---
 
@@ -199,7 +191,7 @@ The data shows these age-related patterns are real, but we don't yet know whethe
 
 ### Does return migration hide who's still struggling?
 
-**What we'd expect to see:** If immigrants who faced severe housing costs or precarious employment left Canada to return to their origin countries, the people remaining in the 2021 Census would look more successful than they actually are. The "recovery" we see at ages 45–54 might be selection bias: those struggling most simply aren't in the data anymore.
+**What we'd expect to see:** Immigrants facing severe housing insecurity in their late 20s and early 30s may have decided to return to their origin countries. If so, the Census only captures 'survivors'—those whose settlement succeeded well enough to stay. The apparent improvement at ages 45–54 could partly reflect that struggling immigrants are no longer in the dataset. To test this: link 2021 Census data to IRCC departure records and compare return rates for immigrants who arrived 2005–2015. Did those facing high housing burden in their first 5 years leave at higher rates than those facing lower burden?
 
 **How we'd test it:** Link the 2021 Census with Immigration, Refugees and Citizenship Canada (IRCC) administrative records to find out how many immigrants who arrived 2005–2015 left Canada by their late 20s and early 30s (via tax records or departures data). Compare return rates for people who faced high housing burden versus low burden. This would directly test whether selection bias explains the pattern. If immigrants facing severe housing insecurity left at higher rates, the Census would only capture survivors, making conditions look better than they were for the full arrival cohort.
 
