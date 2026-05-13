@@ -27,9 +27,10 @@ individual trajectories.*
 
 - [Data Source](#data-source)
 - [Key Findings](#key-findings)
-  - [Finding 1: Housing Burden Disparities Peak in Mid-Career](#finding-1-housing-burden-disparities-peak-in-mid-career)
-  - [Finding 2: A Mid-Career Reprieve: The 45–54 Age Pattern](#finding-2-a-mid-career-reprieve-the-45-54-age-pattern)
-  - [Finding 3: Extreme Housing Cost Burdens Remain Rare and Stable](#finding-3-extreme-housing-cost-burdens-remain-rare-and-stable)
+  - [Finding 1: Settlement Barriers Outweigh Time in Country—The Recency Penalty](#finding-1-settlement-barriers-outweigh-time-in-country-the-recency-penalty)
+  - [Finding 2: Housing Burden Disparities Peak in Mid-Career](#finding-2-housing-burden-disparities-peak-in-mid-career)
+  - [Finding 3: A Mid-Career Reprieve: The 45–54 Age Pattern](#finding-3-a-mid-career-reprieve-the-45-54-age-pattern)
+  - [Finding 4: Extreme Housing Cost Burdens Remain Rare and Stable](#finding-4-extreme-housing-cost-burdens-remain-rare-and-stable)
 - [Interpretation](#interpretation)
   - [What the Data Actually Shows](#what-the-data-actually-shows)
   - [Exploring Causes: Ideas for Future Research](#exploring-causes-ideas-for-future-research)
@@ -61,7 +62,29 @@ individual trajectories.*
 
 ## Key Findings
 
-### Finding 1: Housing Burden Disparities Peak in Mid-Career
+### Finding 1: The Recency Penalty: Settlement Barriers Outweigh Time in Country
+
+Recent immigrants face a persistent affordability disadvantage that is independent of age—evidence that settlement barriers, not mere recency, drive housing insecurity.
+
+To isolate the effect of recency from age, we compare immigrants in the same age group but with vastly different tenure: a 45–54-year-old who arrived 40+ years ago versus a 45–54-year-old who arrived fewer than 5 years ago. The 30%+ shelter cost burden increases sharply with arrival recency and remains elevated across all age groups:
+
+| Age Group | 1980–1990 | Recent (2016–2021) | Burden Gap |
+|-----------|-------------------------------|-------------------|------------|
+| 25–34 years | 18.67% | 25.44% | +6.77pp |
+| 35–44 years | 17.45% | 25.22% | +7.77pp |
+| 45–54 years | 16.32% | 25.54% | +9.22pp |
+| 55–64 years | 15.76% | 24.48% | +8.72pp |
+| 65+ years | 19.93% | 24.16% | +4.23pp |
+
+**What this reveals:** The recency penalty appears consistent across all age groups, suggesting it's driven by years-since-arrival rather than age or career stage. This rules out the explanation that the penalty is purely an age or career-stage artifact. A 45–54-year-old who arrived in 2016 faces 9.2 percentage points higher burden than a 45–54-year-old who arrived before 1980, despite being in the same life stage. The pattern is clear: immigrants face an affordability cliff in their first 5 years, then gradually improve. Someone who arrived in 2016–2021 carries a ~4–9 percentage point penalty regardless of whether they're 25 or 65 today. Notably, the 65+ age group shows a smaller recency gap (4.23 pp compared to 7–9 pp in middle ages), possibly reflecting selection effects (recent arrivals who are now 65+ may be a more established cohort), survivor bias, or changes in family structure and housing support over decades.
+
+**Why this matters:** This finding moves beyond "immigrants struggle" to identify when and why they struggle most: during the critical settlement window. Plausible mechanisms include credential recognition delays specific to Canada's provincial licensing bodies (foreign degrees requiring re-certification or exam fees), limited credit access (new arrivals with no Canadian credit history face higher deposit requirements from lenders), network effects (established immigrants access cheaper housing through community connections), and initial labor market positioning within Canada's job market (new arrivals may accept lower-wage jobs while learning the Canadian labor market and language proficiency requirements, with wages rising as credentials are recognized).
+
+**Caveats:** This pattern likely reflects multiple drivers: time needed for credential recognition and wage growth, but also the economic and policy context at time of arrival. Recent arrivals may face worse affordability partly because they arrived into a tighter housing market with higher prices relative to wages. Disentangling these effects would require tracking individuals over time or comparing arrival cohorts within the same economic period. Neither are possible here.
+
+---
+
+### Finding 2: Housing Burden Disparities Peak in Mid-Career
 
 In 2021, immigrants show elevated housing cost burdens across all age groups compared to non-immigrants, but the relative gap narrows sharply with age. Among those spending 30%+ of income on housing, immigrants are 1.7× more likely at ages 25–34, peaking at 2.0× at ages 35–44, then declining to 1.3× by age 65+.
 
@@ -103,7 +126,7 @@ This shows the pattern holds across multiple metrics, not just one threshold.
 
 ---
 
-### Finding 2: A Mid-Career Reprieve: The 45–54 Age Pattern
+### Finding 3: A Mid-Career Reprieve: The 45–54 Age Pattern
 
 Within the mid-career struggle, immigrants aged 45–54 show slightly better housing affordability than the 35–44 group (19.51% vs. 23.24% with 30%+ burden). However, because this is cross-sectional data, we're comparing different cohorts, not tracking individual improvement over time. This pattern could reflect income gains, tenure changes (renting to owning), or different economic conditions faced by different arrival cohorts. We can't distinguish these with Census data alone.
 
@@ -115,7 +138,7 @@ Within the mid-career struggle, immigrants aged 45–54 show slightly better hou
 
 ---
 
-### Finding 3: Extreme Housing Cost Burdens Remain Rare and Stable
+### Finding 4: Extreme Housing Cost Burdens Remain Rare and Stable
 
 Extreme housing cost burdens (spending 50%+ of income on housing) affect a small but consistent subset of immigrants across all ages. The prevalence among immigrants ranges from 5.7% to 6.6% and shows no systematic worsening pattern with age.
 
@@ -131,28 +154,6 @@ Extreme housing cost burdens (spending 50%+ of income on housing) affect a small
 **What this reveals:** While immigrants are roughly twice as likely as non-immigrants to face extreme housing cost burdens, the prevalence remains relatively low and stable across ages (not rising steeply in mid-career as might be expected). The modest variation (6.60% → 5.72% → 5.78%) could reflect either cohort differences or genuine age-related patterns, but neither interpretation is available from cross-sectional data alone. The absence of escalation is notable: extreme housing stress doesn't accumulate in a worsening trajectory for this population.
 
 **Why this matters:** This finding offers partial reassurance: extreme housing precarity isn't a growing or deepening problem as observed in this snapshot. However, the persistent 2× gap remains important, even at lower prevalence levels. This finding is mixed: the absolute prevalence (5–6%) is reassuringly low, suggesting catastrophic housing costs are not widespread. However, the persistent 2× gap is important. It means a meaningful subset of immigrants faces housing insecurity that non-immigrants rarely experience. Policy should address both the severity (rare but real) and the disparity (consistent 2× burden).
-
----
-
-### Finding 4: The Recency Penalty: Settlement Barriers Outweigh Time in Country
-
-Recent immigrants face a persistent affordability disadvantage that is independent of age—evidence that settlement barriers, not mere recency, drive housing insecurity.
-
-To isolate the effect of recency from age, we compare immigrants in the same age group but with vastly different tenure: a 45–54-year-old who arrived 40+ years ago versus a 45–54-year-old who arrived fewer than 5 years ago. The 30%+ shelter cost burden increases sharply with arrival recency and remains elevated across all age groups:
-
-| Age Group | 1980–1990 | Recent (2016–2021) | Burden Gap |
-|-----------|-------------------------------|-------------------|------------|
-| 25–34 years | 18.67% | 25.44% | +6.77pp |
-| 35–44 years | 17.45% | 25.22% | +7.77pp |
-| 45–54 years | 16.32% | 25.54% | +9.22pp |
-| 55–64 years | 15.76% | 24.48% | +8.72pp |
-| 65+ years | 19.93% | 24.16% | +4.23pp |
-
-**What this reveals:** The recency penalty appears consistent across all age groups, suggesting it's driven by years-since-arrival rather than age or career stage. This rules out the explanation that the penalty is purely an age or career-stage artifact. A 45–54-year-old who arrived in 2016 faces 9.2 percentage points higher burden than a 45–54-year-old who arrived before 1980, despite being in the same life stage. The pattern is clear: immigrants face an affordability cliff in their first 5 years, then gradually improve. Someone who arrived in 2016–2021 carries a ~4–9 percentage point penalty regardless of whether they're 25 or 65 today. Notably, the 65+ age group shows a smaller recency gap (4.23 pp compared to 7–9 pp in middle ages), possibly reflecting selection effects (recent arrivals who are now 65+ may be a more established cohort), survivor bias, or changes in family structure and housing support over decades.
-
-**Why this matters:** This finding moves beyond "immigrants struggle" to identify when and why they struggle most: during the critical settlement window. Plausible mechanisms include credential recognition delays specific to Canada's provincial licensing bodies (foreign degrees requiring re-certification or exam fees), limited credit access (new arrivals with no Canadian credit history face higher deposit requirements from lenders), network effects (established immigrants access cheaper housing through community connections), and initial labor market positioning within Canada's job market (new arrivals may accept lower-wage jobs while learning the Canadian labor market and language proficiency requirements, with wages rising as credentials are recognized).
-
-**Caveats:** This pattern likely reflects multiple drivers: time needed for credential recognition and wage growth, but also the economic and policy context at time of arrival. Recent arrivals may face worse affordability partly because they arrived into a tighter housing market with higher prices relative to wages. Disentangling these effects would require tracking individuals over time or comparing arrival cohorts within the same economic period. Neither are possible here.
 
 ---
 ## Interpretation
