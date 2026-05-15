@@ -95,7 +95,7 @@ In 2021, immigrants show elevated housing cost burdens across all age groups com
 | 55–64     | 18.34%                   | 11.58%                       | 1.6x         |
 | 65+       | 19.65%                   | 14.58%                       | 1.3x |
 
-**What this reveals:** Take people aged 25–34. Nearly one in four immigrants (23.19%) spend 30% or more of their paycheck on housing, compared to about one in eight non-immigrants (13.30%). That's 1.7 times higher. At ages 35–44, immigrants are twice as likely (2.0x) to have high housing costs.
+**What this reveals:** Take people aged 25–34. Nearly one in four immigrants (23.19%) spend 30% or more of their paycheck on housing, compared to about one in eight non-immigrants (13.30%). That's 1.7 times higher. At ages 35–44, immigrants are twice as likely to have high housing costs.
 
 ### Table 1. Sample Uncertainty: Ages 25–34
 
