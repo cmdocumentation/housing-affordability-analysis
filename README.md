@@ -64,7 +64,7 @@ Recent immigrants face a persistent affordability disadvantage that is independe
 
 [View interactive visualization on Tableau Public](https://public.tableau.com/views/HousingBurdenbyAgeGroupImmigrantsvs_Non-Immigrants/DashboardHousingBurdenByAgeGroup?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-To isolate the effect of recency from age, we compare immigrants in the same age group but with vastly different tenure: a 45–54-year-old who arrived 40+ years ago versus a 45–54-year-old who arrived fewer than 5 years ago. The 30%+ shelter cost burden increases sharply with arrival recency and remains elevated across all age groups:
+To isolate the effect of recency from age, we compare immigrants in the same age groups across different arrival periods. For example, a 45–54-year-old who arrived before 1980 faces very different settlement conditions than a 45–54-year-old who arrived 2016–2021, yet both are in the same life stage. The table below shows this pattern holds across all age groups:
 
 | Age Group | 1980–1990 | Recent (2016–2021) | Burden Gap |
 |-----------|-------------------------------|-------------------|------------|
