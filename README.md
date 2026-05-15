@@ -229,7 +229,7 @@ The 2021 Census surveyed 25% of Canadian households. There are far more non-immi
 
 ### 4. Big Cities Might Have Bigger Problems Than This Shows
 
-This analysis looks at all of Canada together. But Toronto, Vancouver, and Montreal are completely different housing markets from smaller cities and rural areas. Immigrants are heavily concentrated in these major cities (over 75% of recent immigrants settle in Toronto, Vancouver, or Montreal).
+This analysis looks at all of Canada together. But Toronto, Vancouver, and Montreal are completely different housing markets from smaller cities and rural areas. Immigrants are heavily concentrated in these major cities (53.4% of recent immigrants settle in Toronto, Vancouver, or Montreal).
 
 **Why this matters:** Young immigrants in Toronto and Vancouver probably face much worse housing affordability than the national average suggests. The national pattern we observe may mask severe regional crises. We can't tell whether age-related improvements happen everywhere or only in cheaper regions. A regional breakdown (by census metropolitan area) would reveal whether mid-career improvements hold in expensive markets where most immigrants actually live.
 
