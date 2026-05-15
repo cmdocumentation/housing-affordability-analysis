@@ -170,7 +170,7 @@ The data shows these age-related patterns are real, but we don't yet know whethe
 
 **What we'd expect to see:** If individual immigrants improve over time due to Canada's credential recognition process, immigrant wages should grow faster than non-immigrant wages in years 5–10 after arrival. Provincial licensing bodies (engineering, medicine, teaching) often require re-certification, exams, or additional work experience, creating a wage penalty in the first 5 years that should diminish as credentials are recognized.
 
-**How we'd test it:** Use longitudinal data to compare wage growth for immigrants who arrived 1990–2010 against non-immigrants at the same age. Look specifically at years 1–3, 5–7, and 10–15 after arrival to see if wage acceleration happens when credential recognition typically completes. This would reveal whether individual immigrants experience the improvement we observe in cross-sectional age patterns.
+**How we'd test it:** Use longitudinal data to compare wage growth for immigrants who arrived 10–15 years ago against non-immigrants at the same age. Look specifically at years 1–3, 5–7, and 10–15 after arrival to see if wage acceleration happens when credential recognition typically completes. This would reveal whether individual immigrants experience the improvement we observe in cross-sectional age patterns.
 
 ---
 
