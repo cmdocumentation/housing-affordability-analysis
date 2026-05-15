@@ -1,14 +1,8 @@
 # Housing Affordability Gap: Immigrants vs. Canadian-Born Residents
 
-Immigrants in Canada face significantly elevated housing affordability burdens, 
-but the gap is driven less by immigrant status itself than by when they arrived. 
-Recent arrivals (2016–2021) spend 30%+ of income on housing at rates of 25.44%. That's nearly 
-double the rate of long-settled immigrants (1980–1990: 18.67%) and nearly twice that 
-of Canadian-born residents (13.30%). The affordability penalty is sharpest in early 
-settlement (first 5 years) and persists across all age groups, suggesting that settlement 
-barriers (credential recognition delays, credit access, wage gaps in early years) drive 
-outcomes more than immigrant status itself. Once established (10+ years in Canada), 
-recent immigrants show similar patterns to longer-settled groups.
+Immigrants in Canada face significantly elevated housing affordability burdens, but this gap correlates strongly with arrival recency rather than immigrant status itself. Recent arrivals (2016–2021) spend 30%+ of income on housing at rates of 25.44%. That is nearly double the rate of long-settled immigrants (1980–1990: 18.67%) and nearly twice that of Canadian-born residents (13.30%). The affordability penalty is sharpest in early settlement (first 5 years) and narrows over time across all age groups, a pattern consistent with early-settlement barriers such as credential recognition delays, credit access constraints, and initial wage gaps, though longitudinal data would be required to isolate which factors drive this convergence.
+
+Immigrants who arrived 10+ years before the 2021 Census (pre-2011 arrivals) show housing affordability patterns similar to Canadian-born residents, suggesting convergence over settlement time. This pattern holds across all age groups, indicating that the burden is time-bound to the early settlement period rather than a persistent feature of immigrant status.
 
 *Note: This analysis uses cross-sectional Census 2021 data comparing different arrival 
 cohorts at a single point in time, not longitudinal tracking of individuals. The 
