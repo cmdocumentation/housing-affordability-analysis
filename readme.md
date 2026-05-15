@@ -66,7 +66,7 @@ individual trajectories.*
 
 Recent immigrants face a persistent affordability disadvantage that is independent of age—evidence that settlement barriers, not mere recency, drive housing insecurity.
 
-![Housing Burden by Age Group](./Dashboard_HousingBurden.png)
+![Housing Burden by Age Group](Dashboard_HousingBurden.png)
 
 [View interactive visualization on Tableau Public](https://public.tableau.com/views/HousingBurdenbyAgeGroupImmigrantsvs_Non-Immigrants/DashboardHousingBurdenByAgeGroup?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
