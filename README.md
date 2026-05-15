@@ -21,6 +21,8 @@ individual trajectories.*
 - What does the arrival-period gradient suggest about settlement context in the Canadian housing and labor markets?
 - Are age-related improvements in affordability driven by individual immigrants becoming established, or by different arrival cohorts experiencing different economic conditions?
 
+Questions 2 and 4 guide our interpretation but cannot be fully answered with cross-sectional Census data. We flag them as priorities for future research.
+
 ---
 
 ## Contents
