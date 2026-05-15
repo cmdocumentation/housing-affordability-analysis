@@ -54,10 +54,6 @@ individual trajectories.*
 
 Recent immigrants face a persistent affordability disadvantage that is independent of age: evidence that settlement barriers, not mere recency, drive housing insecurity.
 
-![Housing Burden by Age Group](Dashboard_HousingBurden.png)
-
-[View interactive visualization on Tableau Public](https://public.tableau.com/views/HousingBurdenbyAgeGroupImmigrantsvs_Non-Immigrants/DashboardHousingBurdenByAgeGroup?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
 To isolate the effect of recency from age, we compare immigrants in the same age groups across different arrival periods. For example, a 45–54-year-old who arrived before 1980 faces very different settlement conditions than a 45–54-year-old who arrived 2016–2021, yet both are in the same life stage. The table below shows this pattern holds across all age groups:
 
 | Age Group | 1980–1990 | Recent (2016–2021) | Burden Gap |
@@ -79,6 +75,10 @@ To isolate the effect of recency from age, we compare immigrants in the same age
 ### Finding 2: Housing Burden Disparities Peak in Mid-Career
 
 In 2021, immigrants show elevated housing cost burdens across all age groups compared to non-immigrants, but the relative gap narrows sharply with age. Among those spending 30%+ of income on housing, immigrants are 1.7× more likely at ages 25–34, peaking at 2.0× at ages 35–44, then declining to 1.3× by age 65+.
+
+![Housing Burden by Age Group](Dashboard_HousingBurden.png)
+
+[View interactive visualization on Tableau Public](https://public.tableau.com/shared/9JWM6CXDK?:display_count=n&:origin=viz_share_link)
 
 | Age Group | Immigrants (30%+ burden) | Non-Immigrants (30%+ burden) | Burden Ratio |
 |-----------|--------------------------|------------------------------|--------------|
