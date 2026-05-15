@@ -109,7 +109,7 @@ In 2021, immigrants show elevated housing cost burdens across all age groups com
 
 #### Supporting Detail: The Affordability Picture (Low-Cost Housing)
 
-The same mid-career squeeze appears when we measure affordability differently—looking at who has housing costs below 15% of income:
+The same mid-career squeeze appears when we measure affordability differently. We can see this by looking at who has housing costs below 15% of income:
 
 | Age Group | Immigrants (<15% burden) | Non-Immigrants (<15% burden) |
 |-----------|--------------------------|------------------------------|
