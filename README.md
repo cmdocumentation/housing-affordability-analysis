@@ -15,13 +15,11 @@ cohorts at a single point in time, not longitudinal tracking of individuals. The
 observed patterns reflect cohort differences and current snapshots, not documented 
 individual trajectories.*
 
-**Research questions:** 
-- Do immigrants in Canada face higher housing affordability barriers than Canadian-born residents?
-- How much of this gap reflects immigrant status itself vs. time since arrival and settlement barriers (credential recognition, credit access, wage dynamics)?
-- What does the arrival-period gradient suggest about settlement context in the Canadian housing and labor markets?
-- Are age-related improvements in affordability driven by individual immigrants becoming established, or by different arrival cohorts experiencing different economic conditions?
+**Research Objectives:** 
+This analysis investigates housing affordability disparities between immigrants and Canadian-born residents in Canada, focusing on two key dimensions:
 
-Questions 2 and 4 guide our interpretation but cannot be fully answered with cross-sectional Census data. We flag them as priorities for future research.
+1. **The immigrant-native gap:** How much higher are housing cost burdens for immigrants?
+2. **The arrival-period effect:** Does the gap reflect when someone arrived in Canada, or their age/life stage?
 
 ---
 
