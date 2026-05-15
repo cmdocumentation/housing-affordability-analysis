@@ -76,9 +76,9 @@ To isolate the effect of recency from age, we compare immigrants in the same age
 
 In 2021, immigrants show elevated housing cost burdens across all age groups compared to non-immigrants, but the relative gap narrows sharply with age. Among those spending 30%+ of income on housing, immigrants are 1.7× more likely at ages 25–34, peaking at 2.0× at ages 35–44, then declining to 1.3× by age 65+.
 
-![Housing Burden by Age Group](Dashboard_HousingBurden.png)
+![Housing Burden by Age Group](Dashboard_HousingBurdenByAge.png)
 
-[View interactive visualization on Tableau Public](https://public.tableau.com/shared/9JWM6CXDK?:display_count=n&:origin=viz_share_link)
+[View interactive visualization on Tableau Public](https://public.tableau.com/views/HousingBurdenbyAgeGroup30ofIncome/Immigrationrecencynotagedriveshousingaffordabilitygaps?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 | Age Group | Immigrants (30%+ burden) | Non-Immigrants (30%+ burden) | Burden Ratio |
 |-----------|--------------------------|------------------------------|--------------|
