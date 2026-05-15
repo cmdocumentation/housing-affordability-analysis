@@ -15,12 +15,6 @@ cohorts at a single point in time, not longitudinal tracking of individuals. The
 observed patterns reflect cohort differences and current snapshots, not documented 
 individual trajectories.*
 
-**Research Objectives:** 
-This analysis investigates housing affordability disparities between immigrants and Canadian-born residents in Canada, focusing on two key dimensions:
-
-1. **The immigrant-native gap:** How much higher are housing cost burdens for immigrants?
-2. **The arrival-period effect:** Does the gap reflect when someone arrived in Canada, or their age/life stage?
-
 ---
 
 ## Contents
@@ -64,7 +58,7 @@ This analysis investigates housing affordability disparities between immigrants 
 
 ### Finding 1: The Recency Penalty: Settlement Barriers Outweigh Time in Country
 
-Recent immigrants face a persistent affordability disadvantage that is independent of age—evidence that settlement barriers, not mere recency, drive housing insecurity.
+Recent immigrants face a persistent affordability disadvantage that is independent of age: evidence that settlement barriers, not mere recency, drive housing insecurity.
 
 ![Housing Burden by Age Group](Dashboard_HousingBurden.png)
 
