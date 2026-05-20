@@ -1,4 +1,8 @@
 -- QUERY 3: Calculate 30%+ housing burden percentage and burden ratio by age group
+-- Purpose: Primary metric for Finding 2 - Housing burden disparities peak in mid-career
+-- Outputs: Burden % for immigrants vs. non-immigrants; burden ratio by age
+-- Dependency: Requires Query 1 (housing table)
+
 SELECT 
   age_group,
   ROUND(100.0 * SUM(CASE 
