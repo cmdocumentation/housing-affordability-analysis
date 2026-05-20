@@ -15,15 +15,11 @@ FROM StatsCan;
 -- QUERY 2: Exploratory distribution of shelter-cost ratios
 -- Purpose: Examine the granular distribution of housing cost burdens across 
 --          all shelter-cost-ratio bands, by age group and immigrant status
--- 
 -- Use case: Foundation for understanding data shape before calculating 
 --           aggregate metrics. Answers: "What % of each group falls into 
 --           each burden category (0–15%, 15–30%, 30–50%, 50%+)?"
---
 -- Outputs: Distribution percentages for each age/status/ratio combination
---
 -- Dependency: Requires Query 1 (housing table)
---
 -- Note: This is exploratory—not directly cited in findings, but essential 
 --       for validating aggregate calculations in Queries 3 & 5
 
