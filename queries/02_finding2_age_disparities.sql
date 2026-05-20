@@ -2,6 +2,13 @@
 -- Purpose: Primary metric for Finding 2 - Housing burden disparities peak in mid-career
 -- Outputs: Burden % for immigrants vs. non-immigrants - burden ratio by age
 -- Dependency: Requires Query 1 (housing table)
+--
+-- Key operations:
+--   - CASE WHEN: Conditional logic to filter specific shelter-cost-ratio bands (30%+ = bands 3 & 4)
+--   - IN ('...', '...'): Matches multiple values (30-50% OR 50-100%)
+--   - Nested aggregation: Inner SUM filters (CASE), outer SUM totals by status
+--   - Division by SUM(CASE WHEN status = ...): Calculates percentage within each group
+--   - Burden Ratio: Divides immigrant % by non-immigrant % to show relative likelihood
 
 SELECT 
   age_group,
