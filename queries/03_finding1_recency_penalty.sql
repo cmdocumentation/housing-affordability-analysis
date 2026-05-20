@@ -1,4 +1,7 @@
 -- QUERY 4: Calculate shelter-cost ratio distribution by age group, immigrant status, and immigration period
+-- Purpose: Foundation for Finding 1 - Add immigration period dimension
+-- Outputs: Distribution across all burden bands, stratified by arrival cohort
+-- Dependency: Requires Query 1 (housing table)
 
 SELECT 
   age_group,
@@ -18,7 +21,7 @@ ORDER BY age_group, immigrant_status, immigration_period,
     WHEN '50% to less than 100%' THEN 4
   END;
  
- -- QUERY 5: Calculate recency penalty by age group
+-- QUERY 5: Calculate recency penalty by age group
 -- Purpose: Compare immigrants arriving 1980-1990 vs. 2016-2021
 -- Shows that burden difference is independent of age
 
