@@ -1,6 +1,7 @@
 -- QUERY 1: Create housing affordability table
 -- Purpose: Import StatsCan census data and standardize column naming
 -- Source: Statistics Canada Table 98-10-0328-01, Census 2021
+
 CREATE TABLE housing AS
 SELECT 
   "Immigrant Status" AS immigrant_status,
