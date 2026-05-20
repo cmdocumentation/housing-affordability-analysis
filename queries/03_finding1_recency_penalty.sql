@@ -2,6 +2,11 @@
 -- Purpose: Foundation for Finding 1 - Add immigration period dimension
 -- Outputs: Distribution across all burden bands, stratified by arrival cohort
 -- Dependency: Requires Query 1 (housing table)
+--
+-- Key operations:
+--   - PARTITION BY (3 columns): Creates separate windows for each combo of age/status/period
+--   - Window function recalculates total_in_group for each partition independently
+--   - Allows comparison of distributions within smaller cohorts (e.g., 25-34 immigrants, 1980-1990)
 
 SELECT 
   age_group,
@@ -24,6 +29,12 @@ ORDER BY age_group, immigrant_status, immigration_period,
 -- QUERY 5: Calculate recency penalty by age group
 -- Purpose: Compare immigrants arriving 1980-1990 vs. 2016-2021
 -- Shows that burden difference is independent of age
+--
+-- Key operations:
+--   - WHERE immigrant_status = 'Immigrant': Filters to only immigrant rows
+--   - WHERE immigration_period IN (...): Isolates two arrival cohorts for comparison
+--   - WHERE age_group NOT IN (...): Excludes 20-24 (too few recent arrivals in that band)
+--   - Comparison logic: Same age groups across different arrival periods = isolates recency effect
 
 SELECT 
   age_group,
