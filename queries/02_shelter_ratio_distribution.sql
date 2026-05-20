@@ -1,21 +1,39 @@
--- QUERY 2: Calculate shelter-cost ratio distribution by age group and immigrant status
+-- QUERY 3: Calculate 30%+ housing burden percentage and burden ratio by age group
 SELECT 
   age_group,
-  immigrant_status,
-  shelter_cost_ratio,
-  SUM(count_total) AS count_in_band,
-  SUM(ci_lower_bound) AS ci_lower_count,
-  SUM(ci_upper_bound) AS ci_upper_count,
-  SUM(SUM(count_total)) OVER (PARTITION BY age_group, immigrant_status) AS total_in_group,
-  ROUND(100.0 * SUM(count_total) / SUM(SUM(count_total)) OVER (PARTITION BY age_group, immigrant_status), 2) AS pct_of_group,
-  ROUND(100.0 * SUM(ci_lower_bound) / SUM(SUM(count_total)) OVER (PARTITION BY age_group, immigrant_status), 2) AS ci_lower_pct,
-  ROUND(100.0 * SUM(ci_upper_bound) / SUM(SUM(count_total)) OVER (PARTITION BY age_group, immigrant_status), 2) AS ci_upper_pct
+  ROUND(100.0 * SUM(CASE 
+    WHEN immigrant_status = 'Immigrant' 
+      AND shelter_cost_ratio IN ('30% to less than 50%', '50% to less than 100%') 
+    THEN count_total END) / 
+    SUM(CASE WHEN immigrant_status = 'Immigrant' THEN count_total END), 2) 
+  AS "Immigrants (30%+ burden)",
+  
+  ROUND(100.0 * SUM(CASE 
+    WHEN immigrant_status = 'Non-immigrant' 
+      AND shelter_cost_ratio IN ('30% to less than 50%', '50% to less than 100%') 
+    THEN count_total END) / 
+    SUM(CASE WHEN immigrant_status = 'Non-immigrant' THEN count_total END), 2) 
+  AS "Non-Immigrants (30%+ burden)",
+  
+  ROUND(
+    (SUM(CASE WHEN immigrant_status = 'Immigrant' 
+      AND shelter_cost_ratio IN ('30% to less than 50%', '50% to less than 100%') 
+      THEN count_total END) * 1.0 / 
+    SUM(CASE WHEN immigrant_status = 'Immigrant' THEN count_total END)) /
+    (SUM(CASE WHEN immigrant_status = 'Non-immigrant' 
+      AND shelter_cost_ratio IN ('30% to less than 50%', '50% to less than 100%') 
+      THEN count_total END) * 1.0 / 
+    SUM(CASE WHEN immigrant_status = 'Non-immigrant' THEN count_total END)), 1) 
+  AS "Burden Ratio"
+  
 FROM housing
-GROUP BY age_group, immigrant_status, shelter_cost_ratio
-ORDER BY age_group, immigrant_status, 
-  CASE shelter_cost_ratio
-    WHEN 'Less than 15%' THEN 1
-    WHEN '15% to less than 30%' THEN 2
-    WHEN '30% to less than 50%' THEN 3
-    WHEN '50% to less than 100%' THEN 4
+GROUP BY age_group
+ORDER BY 
+  CASE age_group
+    WHEN '20 to 24 years' THEN 1
+    WHEN '25 to 34 years' THEN 2
+    WHEN '35 to 44 years' THEN 3
+    WHEN '45 to 54 years' THEN 4
+    WHEN '55 to 64 years' THEN 5
+    WHEN '65 years and over' THEN 6
   END;
