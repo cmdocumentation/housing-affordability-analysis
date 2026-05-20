@@ -59,8 +59,8 @@ To isolate the effect of recency from age, we compare immigrants in the same age
 | Age Group | 1980–1990 | Recent (2016–2021) | Burden Gap |
 |-----------|-------------------------------|-------------------|------------|
 | 25–34 years | 18.66% | 25.44% | +6.77pp |
-| 35–44 years | 17.46% | 25.21% | +7.77pp |
-| 45–54 years | 16.32% | 25.55% | +9.22pp |
+| 35–44 years | 17.46% | 25.21% | +7.75pp |
+| 45–54 years | 16.32% | 25.55% | +9.23pp |
 | 55–64 years | 15.76% | 24.48% | +8.72pp |
 | 65+ years | 19.93% | 24.16% | +4.23pp |
 
