@@ -1,6 +1,12 @@
 -- QUERY 1: Create housing affordability table
 -- Purpose: Import StatsCan census data and standardize column naming
 -- Source: Statistics Canada Table 98-10-0328-01, Census 2021
+-- 
+-- Key operations:
+--   - CREATE TABLE AS: Creates new table from SELECT results
+--   - AS aliases: Renames raw column names to lowercase snake_case for consistency
+--   - CAST + REPLACE: Converts comma-separated strings (e.g., "1,234") to integers
+--   - Confidence interval columns: Imported for uncertainty bounds in later analysis
 
 CREATE TABLE housing AS
 SELECT 
@@ -17,6 +23,14 @@ FROM StatsCan;
 -- Purpose: Foundation query showing % of population in each burden band
 -- Use: Validates data shape before aggregate calculations in Queries 3–5
 -- Dependency: Requires Query 1 (housing table)
+-- 
+-- Key operations:
+--   - GROUP BY: Aggregates counts by age, status, and ratio band
+--   - SUM(count_total): Totals individuals in each band
+--   - OVER (PARTITION BY ...): Window function that calculates running total within each group
+--   - SUM(SUM(...)): Nested aggregation—inner SUM is in GROUP BY, outer SUM sums the groups
+--   - ROUND(..., 2): Converts to percentages, rounded to 2 decimals
+--   - CASE in ORDER BY: Custom sort order (burden bands in logical sequence, not alphabetical)
 
 SELECT 
   age_group,
