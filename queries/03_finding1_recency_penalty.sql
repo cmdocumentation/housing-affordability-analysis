@@ -1,4 +1,5 @@
 -- QUERY 4: Calculate shelter-cost ratio distribution by age group, immigrant status, and immigration period
+
 SELECT 
   age_group,
   immigrant_status,
@@ -17,9 +18,10 @@ ORDER BY age_group, immigrant_status, immigration_period,
     WHEN '50% to less than 100%' THEN 4
   END;
  
--- QUERY 5: Calculate recency penalty by age group
+ -- QUERY 5: Calculate recency penalty by age group
 -- Purpose: Compare immigrants arriving 1980-1990 vs. 2016-2021
 -- Shows that burden difference is independent of age
+
 SELECT 
   age_group,
   immigration_period,
@@ -30,7 +32,8 @@ SELECT
   SUM(count_total) AS total_count
 FROM housing
 WHERE immigrant_status = 'Immigrant'
-  AND immigration_period IN ('Before 1980', '1980 to 1990', '2016 to 2021')
+  AND immigration_period IN ('1980 to 1990', '2016 to 2021')
+   AND age_group NOT IN ('20 to 24 years')
 GROUP BY age_group, immigration_period
 ORDER BY 
   CASE age_group
@@ -38,9 +41,5 @@ ORDER BY
     WHEN '35 to 44 years' THEN 2
     WHEN '45 to 54 years' THEN 3
     WHEN '55 to 64 years' THEN 4
-  END,
-  CASE immigration_period
-    WHEN 'Before 1980' THEN 1
-    WHEN '1980 to 1990' THEN 2
-    WHEN '2016 to 2021' THEN 3
+    WHEN '65 years and over' THEN 4
   END;
